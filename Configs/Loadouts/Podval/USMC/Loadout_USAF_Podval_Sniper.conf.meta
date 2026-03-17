@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{2CCC148868995606}Configs/Loadouts/USAF/USMC/MEF/Loadout_USAF_Podval_Sniper.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}
