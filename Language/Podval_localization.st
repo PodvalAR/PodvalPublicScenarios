@@ -1,6 +1,15 @@
 StringTable {
  ItemClassName "CustomStringTableItem"
  Items {
+  CustomStringTableItem "{68E30B9C9705C951}" {
+   Id "AR-PODVAL-Author_Podval"
+   Target_en_us "Podval"
+   Target_ru_ru "Подвал"
+   Status TRANSLATION_PENDING
+   Modified 1759710191
+   Author "Vlad333000"
+   LastChanged "Vlad333000"
+  }
   CustomStringTableItem "{68E0A45883867562}" {
    Id "AR-PODVAL-Author_Vlad333000"
    Target_en_us "Podval & Vlad333000"
