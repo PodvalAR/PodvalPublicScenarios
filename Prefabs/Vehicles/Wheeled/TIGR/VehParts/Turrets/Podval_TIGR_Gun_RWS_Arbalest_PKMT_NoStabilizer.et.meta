@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{BCEC76769CFEFD2F}Prefabs/Vehicles/Wheeled/TIGR/VehParts/Turrets/Podval_TIGR_Gun_RWS_Arbalest_PKMT_NoStabilizer.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

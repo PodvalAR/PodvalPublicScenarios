@@ -1,0 +1,12 @@
+Vehicle : "{3312ADBF53A16DD8}Prefabs/Vehicles/Wheeled/LAV25/LAV25_RHS.et" {
+ ID "0000000000000001"
+ components {
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{89C2C7522009462E}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Turret/Podval_LAV25_turret_rhs_NoStabilizer.et"
+    }
+   }
+  }
+ }
+}

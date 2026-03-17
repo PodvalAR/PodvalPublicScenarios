@@ -1,0 +1,4 @@
+SCR_SpawnPoint : "{69D81D4A5FB98F58}Prefabs/MP/Spawning/SpawnPoint_USMC_CP.et" {
+ ID "544EB04DCBFBD126"
+ m_bShowInDeployMapOnly 0
+}

@@ -1,0 +1,83 @@
+GameProject {
+ ID "NewEnfusionProject19"
+ GUID "68DF2135AA1A96A7"
+ TITLE "New Enfusion Project 19"
+ Dependencies {
+  "58D0FB3206B6F859" "595F2BF2F44836FB" "5D550926D43F1409"
+ }
+ Configurations {
+  GameProjectConfig PC {
+   WidgetManagerSettings WidgetManagerSettings "{AC4BE58770485E02}" {
+    StringTables {
+     StringTableDefinition "{68E0A3C08DF481A3}" {
+      StringTableSource "{A1BFD59910F89B41}Language/Podval_localization.st"
+      Languages {
+       LanguageDefinition "{68E0A3C08F5B37A3}" {
+        Code "cs_cz"
+        StringTableRuntime "{EC615AF88EF85372}Language/Podval_localization.cs_cz.conf"
+       }
+       LanguageDefinition "{68E0A3C08F5B37FC}" {
+        Code "de_de"
+        StringTableRuntime "{391F40CB9D5B4252}Language/Podval_localization.de_de.conf"
+       }
+       LanguageDefinition "{68E0A3C08F5B37E9}" {
+        Code "en_us"
+        StringTableRuntime "{67EFCA80F7A84753}Language/Podval_localization.en_us.conf"
+       }
+       LanguageDefinition "{68E0A3C08F5B37E5}" {
+        Code "es_es"
+        StringTableRuntime "{A2A3870919AA2C4C}Language/Podval_localization.es_es.conf"
+       }
+       LanguageDefinition "{68E0A3C08F5B37D6}" {
+        Code "fr_fr"
+        StringTableRuntime "{190B723EFF29CF4E}Language/Podval_localization.fr_fr.conf"
+       }
+       LanguageDefinition "{68E0A3C08F5B37C3}" {
+        Code "it_it"
+        StringTableRuntime "{9917FD0A520B4CB7}Language/Podval_localization.it_it.conf"
+       }
+       LanguageDefinition "{68E0A3C08F5B373D}" {
+        Code "ja_jp"
+        StringTableRuntime "{890C40986C7A7C1C}Language/Podval_localization.ja_jp.conf"
+       }
+       LanguageDefinition "{68E0A3C08F5B372B}" {
+        Code "ko_kr"
+        StringTableRuntime "{29B26834FF577F23}Language/Podval_localization.ko_kr.conf"
+       }
+       LanguageDefinition "{68E0A3C08F5B3724}" {
+        Code "pl_pl"
+        StringTableRuntime "{75C3CECE41B8E35F}Language/Podval_localization.pl_pl.conf"
+       }
+       LanguageDefinition "{68E0A3C08F5B3711}" {
+        Code "pt_br"
+        StringTableRuntime "{A0B454027A4629E5}Language/Podval_localization.pt_br.conf"
+       }
+       LanguageDefinition "{68E0A3C08F5B3700}" {
+        Code "ru_ru"
+        StringTableRuntime "{F5F540AAE73F4C93}Language/Podval_localization.ru_ru.conf"
+       }
+       LanguageDefinition "{68E0A3C08F5B375B}" {
+        Code "uk_ua"
+        StringTableRuntime "{7FAD155C8B11F2C6}Language/Podval_localization.uk_ua.conf"
+       }
+       LanguageDefinition "{68E0A3C08F5B3757}" {
+        Code "zh_cn"
+        StringTableRuntime "{A51D7B61B2B122DB}Language/Podval_localization.zh_cn.conf"
+       }
+      }
+     }
+    }
+   }
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+  GameProjectConfig PS5 {
+  }
+  GameProjectConfig HEADLESS {
+  }
+ }
+}

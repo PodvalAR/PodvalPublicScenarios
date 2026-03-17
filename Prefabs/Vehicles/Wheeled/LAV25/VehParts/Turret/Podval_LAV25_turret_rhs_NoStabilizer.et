@@ -1,0 +1,10 @@
+Turret : "{EFF08C8B467C3380}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Turret/LAV25_turret_rhs.et" {
+ ID "51ACD0965653D003"
+ components {
+  RHS_TurretStabilizationComponent "{64F35948F93055D4}" {
+   Enabled 0
+  }
+  SCR_TurretControllerComponent "{51ACD09C61C183E4}" {
+  }
+ }
+}

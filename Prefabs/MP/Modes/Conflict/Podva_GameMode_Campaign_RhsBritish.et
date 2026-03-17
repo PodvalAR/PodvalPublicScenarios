@@ -1,0 +1,378 @@
+SCR_GameModeCampaign : "{0F307326459A1395}Prefabs/MP/Modes/GameMode_Base.et" {
+ ID "56B2B479C6B96951"
+ components {
+  SCR_AdditionalGameModeSettingsComponent "{6170E11C3C452ACC}" {
+   m_bAdditionalArtilleryOrderDistancePenalty 1
+  }
+  SCR_AnalyticsDataCollectionComponent "{68DF7530E22CEAF5}" {
+   m_aModules {
+    SCR_AnalyticsDataCollectionAiGroupCostModule "{68DF7530E22CEAE0}" {
+    }
+    SCR_AnalyticsDataCollectionCompositionCostModule "{68DF7530E22CEAE1}" {
+    }
+    SCR_AnalyticsDataCollectionLoadoutCostModule "{68DF7530E22CEAE7}" {
+    }
+    SCR_AnalyticsDataCollectionVehicleCostModule "{68DF7530E22CEAE4}" {
+    }
+    SCR_AnalyticsDataCollectionMilitaryBaseEventsModule "{68DF7530E22CEAE5}" {
+    }
+    SCR_AnalyticsDataCollectionPlayerGroupsModule "{68DF7530E22CEB1A}" {
+    }
+    SCR_AnalyticsDataCollectionPlayerKicksModule "{68DF7530E22CEB1B}" {
+    }
+    SCR_AnalyticsDataCollectionVoNDataModule "{68DF7530E22CEB18}" {
+    }
+    SCR_AnalyticsDataCollectionXPEventsModule "{68DF7530E22CEB19}" {
+    }
+    SCR_AnalyticsDataCollectionPlayerFactionModule "{68DF7530E22C3911}" {
+    }
+    SCR_AnalyticsDataCollectionTimeAndWeatherModule "{68DF7530E22C3916}" {
+    }
+    SCR_AnalyticsDataCollectionTransferSuppliesModule "{68DF7530E22C3917}" {
+    }
+   }
+  }
+  SCR_ArsenalManagerComponent "{6120A34EB1E9BBEF}" {
+   m_sLoadoutSaveBlackListHolder "{32921D218FA8D5E7}Configs/Arsenal/ArsenalLoadoutSaveBlacklistsOGConflict.conf"
+   m_fLoadoutSpawnSupplyCostMultiplier 1
+   m_eArsenalGameModeType CAMPAIGN
+   m_bRankLockedItems 1
+   m_sMilitarySupplyAllocationConfigHolder "{BA6B6E7E2ED427D6}Configs/Campaign/CampaignMilitarySupplyAllocationConfig.conf"
+   m_fRefundDifferentFactionItemMultiplier 0.4
+  }
+  SCR_CampaignBuildingManagerComponent "{68DF7530E22C391E}" {
+   m_sFreeRoamBuildingClientTrigger "{5E191CEAF4B95816}Prefabs/MP/FreeRoamBuildingClientTrigger.et"
+   m_BudgetType CAMPAIGN
+   m_iCompositionRefundPercentage 100
+   m_iXpRewardTreshold 5
+   m_iInitialRewardInterval 5
+   m_fRewardCurveIncrement 0.2
+   m_OutlineManager SCR_CampaignBuildingCompositionOutlineManager "{68E07D4C459BBE8D}" : "{96A8B496A076F1C0}scripts/Game/Building/CampaignBuildingCompositionOutline.conf" {
+   }
+   m_sPrefabsToBuildResource "{D2527D9AA5B4A33E}Configs/Editor/PlaceableEntities/Compositions/Compositions_FreeRoamBuilding.conf"
+   m_sPrefabToHoldSupplyOnRefund "{4BBE0A784C01900E}Prefabs/Props/Military/SupplyBox/SupplyCrate/SupplyCrate_01/SupplyCrate_01_FreeRoamBuilding.et"
+  }
+  SCR_CampaignFactionCommanderHandlerComponent "{68DF7530E22C3909}" {
+   m_aAIFactionCommanders {
+    SCR_EstablishBaseAIFactionCommander "{68DF7530E22C390E}" {
+     m_sFactionKey "US"
+     m_sEstablishBaseTaskPrefab "{FF81AEB7D26E6742}Prefabs/Tasks/Campaign/EstablishBaseTaskEntity.et"
+    }
+    SCR_EstablishBaseAIFactionCommander "{68DF7530E22C390F}" {
+     m_sFactionKey "USSR"
+     m_sEstablishBaseTaskPrefab "{FF81AEB7D26E6742}Prefabs/Tasks/Campaign/EstablishBaseTaskEntity.et"
+    }
+   }
+   m_MinBaseDistanceConfig SCR_MinBaseDistanceConfig "{68DF7530E22C390D}" {
+    m_aMinBaseDistanceInfoList {
+     SCR_MinBaseDistanceInfo "{68DF7530E22C3932}" {
+      m_eBaseType RELAY
+     }
+     SCR_MinBaseDistanceInfo "{68DF7530E22C3933}" {
+      m_eBaseType SOURCE_BASE
+      m_iMinimumRequiredDistanceFromBase 420
+     }
+     SCR_MinBaseDistanceInfo "{68DF7530E22C3936}" {
+      m_iMinimumRequiredDistanceFromBase 450
+     }
+    }
+   }
+  }
+  SCR_CommandingManagerComponent "{68DF7530E22C3934}" {
+   m_sCommandsConfigPath "{54764D4E706F348C}Configs/Commanding/Commands.conf"
+   m_iMaxAIPerGroup 4
+  }
+  SCR_CompositionSlotManagerComponent "{68DF7530E22C393A}" {
+  }
+  SCR_DebriefingScreenComponent "{68DF7530E22C393D}" {
+   m_BaseLayout SCR_DebriefingScreenUnevenFourTiles "{68DF7530E22C3922}" {
+    m_TopLeftTile SCR_DebriefingScreenBigImageContent "{68DF7530E22C3923}" {
+     m_sContentImage "{62897631F4A6C7F3}UI/Textures/MissionLoadingScreens/Reforger_ConflictArt_UI.edds"
+    }
+    m_TopRightTile SCR_DebriefingScreenFinishedObjectivesContent "{68DF7530E22C3920}" {
+     m_bIsInteractible 1
+     m_sTitleText "#AR-DebriefingScreen_Objectives"
+     m_sFinishedObjectivesTileLayout "{B3A6950DF2D34576}UI/layouts/Menus/DeployMenu/DebriefingScreenFinishedObjectivesTile.layout"
+     m_bUseTaskFinishHistoryManager 1
+    }
+    m_BottomLeftTile SCR_DebriefingScreenSummaryContent "{68DF7530E22C3926}" {
+     m_sTitleText "#AR-DebriefingScreen_Debriefing"
+     m_sSubtitleText "#AR-DebriefingScreen_Subtitle"
+     m_sSubtitleLostText "#AR-DebriefingScreen_Subtitle_Lost"
+    }
+    m_BottomRightTile SCR_DebriefingScreenStatisticsContent "{68DF7530E22C3927}" {
+     m_sTitleText "#AR-DebriefingScreen_Statistics"
+     m_aStatistics {
+      SCR_DebriefingScreenStatisticShotsFired "{68DF7530E22C3924}" {
+      }
+      SCR_DebriefingScreenStatisticKills "{68DF7530E22D9C26}" {
+      }
+      SCR_DebriefingScreenStatisticDeaths "{68DF7530E22D9C27}" {
+      }
+      SCR_DebriefingScreenStatisticDistanceWalked "{68DF7530E22D9C28}" {
+      }
+      SCR_DebriefingScreenStatisticDistanceDriven "{68DF7530E22D9C29}" {
+      }
+     }
+    }
+   }
+  }
+  SCR_GameModeHealthSettings "{5A22E11F9ACBB1DF}" {
+   m_fDOTScale 0.75
+   m_fRegenScale 0.725
+   m_bPermitUnconsciousVON 1
+   m_fCompartmentRegenerationRateMultiplier 1.775
+  }
+  SCR_GameOverScreenManagerComponent "{56DEC646298AD219}" {
+   m_GameOverScreenConfig SCR_GameOverScreenConfig "{56DEC6462FFDD82D}" {
+    m_aGameOverScreens {
+     SCR_FactionGameOverScreenInfo "{568E79DBAC19013D}" {
+      m_OptionalParams SCR_BaseGameOverScreenInfoOptional "{568E79DBB3E97D11}" {
+       m_sDebriefing "#AR-Campaign_MatchResult_DefeatDetail_Score"
+      }
+     }
+    }
+   }
+  }
+  SCR_GroupTaskManagerComponent "{68DF7530E22D9C50}" {
+   m_GroupTaskRelevanceConfig SCR_GroupTaskRelevanceConfig "{657F21629E888368}" : "{8FD30741F5E75C87}Configs/Task/GroupTaskRelevanceConfig.conf" {
+   }
+   m_bEnabledAssigningFrequencies 0
+   m_aAllowedTasksWithFrequencies {
+    "SCR_AttackTaskEntity" "SCR_EstablishBaseTaskEntity" "SCR_HoldCampaignMilitaryBaseTaskEntity" "SCR_SeizeCampaignMilitaryBaseTaskEntity"
+   }
+  }
+  SCR_GroupsManagerComponent "{5706EC99934496F5}" {
+   m_sDefaultGroupPrefab "{077C06EB9DE8EC93}Prefabs/Groups/Campaign_PlayableGroup.et"
+  }
+  SCR_IdentityManagerComponent "{5AEEA80681EA61AF}" {
+   m_bGenerateValuableIntel 1
+  }
+  SCR_MapConfigComponent "{5C669498E250A34B}" {
+   m_sSpawnMapConfigPath "{901F9ED2088BBCA4}Configs/Map/MapSpawnConflict.conf"
+  }
+  SCR_MapMarkerManagerComponent "{5D32E876D3886A72}" {
+   m_sMarkerCfgPath "{3583D42139D9A10B}Configs/Map/CampaignMapMarkerConfig.conf"
+  }
+  SCR_NametagConfigComponent "{571AA9E54FC9210D}" {
+   m_sConfigPath "{09F7AAA14A642683}Configs/NameTags/NametagFriendlies.conf"
+  }
+  SCR_PerceivedFactionManagerComponent "{61AA7E6E0C6A76F9}" {
+   m_eCharacterPerceivedFactionOutfitType HIGHEST_VALUE
+   m_ePunishmentKillingWhileDisguised XP_LOSS
+  }
+  SCR_PlayerSpawnPointManagerComponent "{68DF7530E22D9C53}" {
+   m_SpawnPointPrefab "{6FC8BA123C919DB3}Prefabs/MP/PlayerRadioSpawnPointCampaign.et"
+   m_bEnablePlayerSpawnPoints 0
+   m_eDeployableSpawnPointBudgetType SPAWNTICKET
+   m_iDeployableSpawnPointTicketAmount 2
+  }
+  SCR_RespawnBriefingComponent "{68DF7530E22D9C55}" {
+   m_sJournalConfigPath "{FFB1A12A7BFC4957}Configs/Journal/JournalConflict.conf"
+   m_Info SCR_UIInfo "{68DF7530E22D9C56}" {
+    Description "#AR-Campaign_GamemodeTutorial"
+   }
+   m_aGameModeHints {
+    SCR_UIInfo "{68DF7530E22D9C57}" {
+     Name "#AR-BriefingCampaign_Hint_Name_01"
+     Description "#AR-BriefingCampaign_Hint_Description_01"
+     Icon "{324E923535DCACF8}UI/Textures/DeployMenu/Briefing/conflict_HintBanner_1_UI.edds"
+    }
+    SCR_UIInfo "{68DF7530E22D9C58}" {
+     Name "#AR-BriefingCampaign_Hint_Name_02"
+     Description "#AR-BriefingCampaign_Hint_Description_02"
+     Icon "{3C50D67D082BA322}UI/Textures/DeployMenu/Briefing/conflict_HintBanner_2_UI.edds"
+    }
+    SCR_UIInfo "{68DF7530E22D9C59}" {
+     Name "#AR-BriefingCampaign_Hint_Name_03"
+     Description "#AR-BriefingCampaign_Hint_Description_03"
+     Icon "{39A515BAE3795994}UI/Textures/DeployMenu/Briefing/conflict_HintBanner_3_UI.edds"
+    }
+   }
+   m_aWinConditions {
+    SCR_BriefingVictoryCondition "{68DF7530E22D9C5A}" {
+     victoryCondition SEIZE
+     name "Condition_01"
+     description "#AR-BriefingCampaign_VictoryCondition_01"
+    }
+    SCR_BriefingVictoryCondition "{68DF7530E22D9C5C}" {
+     victoryCondition GUARD
+     name "Condition_02"
+     description "#AR-BriefingCampaign_VictoryCondition_02"
+    }
+    SCR_BriefingVictoryCondition "{68DF7530E22DEC81}" {
+     victoryCondition SEIZE_RELAY
+     name "Condition_03"
+     description "#AR-BriefingCampaign_VictoryCondition_03"
+    }
+   }
+  }
+  SCR_RespawnSystemComponent "{56B2B4793051E7C9}" {
+   m_SpawnLogic SCR_MenuSpawnLogic "{68DF7530E22DEC82}" {
+   }
+  }
+  SCR_RespawnTimerComponent "{68DF7530E22DEC95}" {
+   m_fRespawnTime 15
+  }
+  SCR_SpawnProtectionComponent "{68DF7530E22DEC94}" {
+   m_fProtectionTime 5
+  }
+  SCR_TaskCreatorComponent "{68DF7530E22DEC97}" {
+  }
+  SCR_TaskManagerUIComponent "{65D26A2BD7B67AAF}" {
+   m_bShowCurrentTaskOnRespawn 1
+   m_sTaskTabConfig "{BBB399D776C71EAA}Configs/Task/TasksTabConfig_Conflict.conf"
+  }
+  SCR_TaskNotificationManagerComponent "{68DF7530E22DEC96}" {
+   m_TaskNotificationsConfig SCR_TaskNotificationsRootConfig "{66649B72D68567CC}" : "{28D1004EBAE35243}Configs/Task/Notifications/TaskNotificationsConfig.conf" {
+   }
+  }
+  SCR_TaskSolverManagerComponent "{68DF7530E22DEC91}" {
+   m_TaskSolverConfig SCR_TaskSolverConfig "{6594F62B0DA7D5B9}" : "{48D8C5421D600733}Configs/TaskSolver/TaskSolverConfig.conf" {
+   }
+  }
+  SCR_TimeAndWeatherHandlerComponent "{68DF7530E22DEC93}" {
+   m_bRandomStartingDaytime 1
+   m_fDayTimeAcceleration 4
+   m_fNightTimeAcceleration 12
+   m_bRandomStartingWeather 1
+   m_bRandomWeatherChanges 1
+   m_bAllowHeaderSettings 1
+  }
+  SCR_TimedSpawnPointComponent "{68DF7530E22DEC92}" {
+   m_fRespawnTime 15
+  }
+  SCR_VotingManagerComponent "{5650BB6B6089393A}" {
+   m_aVotingTemplates {
+    SCR_VotingFactionCommander "{68DF7530E22DECAD}" {
+     m_Type COMMANDER
+     m_bIsValuePlayerID 1
+     m_iMinVotes 1
+     m_Info SCR_VotingUIInfo "{68DF7530E22DECAF}" {
+      Name "#AR-FactionCommander_VoteNew"
+      m_sStartVotingName "#AR-FactionCommander_Volunteer"
+      m_sCancelVotingName "#AR-FactionCommander_VoteCancel"
+      m_sAbstainVoteName "#AR-FactionCommander_VoteAbstain"
+      m_sStickyNotificationText "#AR-FactionCommander_NotificationVolunteered"
+      m_iSucceededNotificationId VOTING_COMMANDER_DONE
+     }
+     m_bAlwaysDisplayVoteSubjectVotingTimer 1
+    }
+    SCR_VotingFactionCommanderWithdraw "{68DF7530E22DECA9}" {
+     m_Type COMMANDER_WITHDRAW
+     m_bIsValuePlayerID 1
+     m_fThreshold 0
+     m_iMinParticipation 0
+     m_iMinVotes 1
+     m_Info SCR_VotingUIInfo "{68DF7530E22DECA8}" {
+      m_sStartVotingName "#AR-FactionCommander_Leave"
+      m_iSucceededNotificationId VOTING_COMMANDER_WITHDRAW
+     }
+    }
+   }
+  }
+  SCR_WelcomeScreenComponent "{68DF7530E22DECAB}" {
+   m_BaseLayout SCR_WelcomeScreenThreeHorizontalColumns "{68DF7530E22DECAA}" {
+    m_LeftColumn SCR_WelcomeScreenFactionContent "{68DF7530E22DECA5}" {
+     m_sTitleText "#AR-DeployScreen_AvailableFactionsTitle"
+     m_sBottomTitleText "#AR-DeployScreen_MoreFactions"
+    }
+    m_MiddleColumn SCR_WelcomeScreenMissionObjectivesContent "{68DF7530E22DECA4}" {
+     m_sTitleText "#AR-DebriefingScreen_Objectives"
+     m_aMissionObjectives {
+      SCR_WelcomeScreenMissionObjectives "{68DF7530E22DF0E3}" {
+       m_sObjectiveQuadName "Defend"
+       m_sDescription "#AR-BriefingCampaign_VictoryCondition_01"
+      }
+      SCR_WelcomeScreenMissionObjectives "{68DF7530E22DF0E0}" {
+       m_sObjectiveQuadName "Seize"
+       m_sDescription "#AR-BriefingCampaign_VictoryCondition_02"
+      }
+      SCR_WelcomeScreenMissionObjectives "{68DF7530E22DF0E1}" {
+       m_sObjectiveQuadName "Reconfigure"
+       m_sDescription "#AR-BriefingCampaign_VictoryCondition_03"
+      }
+     }
+    }
+    m_RightColumn SCR_WelcomeScreenIntroductionContent "{68DF7530E22DF0E6}" {
+     m_bIsInteractible 1
+     m_sTitleText "#AR-FieldManual_Category_Introduction_Title"
+     m_aIntroduction {
+      SCR_WelcomeScreenIntroduction "{68DF7530E22DF0E7}" {
+       m_sContentImage "{F355C5692BEDC1E5}UI/Textures/FieldManual/MPModes/Conflict/Images/Conflict_loadScreen_UI.edds"
+       m_sContentTitleText "#AR-BriefingCampaign_Hint_Name_01"
+       m_sContentDescriptionText "#AR-FieldManual_Page_Conflict_Text_02"
+      }
+      SCR_WelcomeScreenIntroduction "{68DF7530E22D56EE}" {
+       m_sContentImage "{EFF804FB17026599}UI/Textures/FieldManual/MPModes/Conflict/Images/Conflict_service_antenna_UI.edds"
+       m_sContentTitleText "#AR-BriefingCampaign_Hint_Name_02"
+       m_sContentDescriptionText "#AR-BriefingCampaign_Hint_Description_02"
+      }
+      SCR_WelcomeScreenIntroduction "{68DF7530E22D56EC}" {
+       m_sContentImage "{E00CCCF1DB6DE5F3}UI/Textures/FieldManual/MPModes/Conflict/Images/Conflict_service_supply_UI.edds"
+       m_sContentTitleText "#AR-BriefingCampaign_Hint_Name_03"
+       m_sContentDescriptionText "#AR-BriefingCampaign_Hint_Description_03"
+      }
+     }
+    }
+   }
+  }
+  SCR_XPHandlerComponent "{68DF7530E22D56F3}" {
+   m_sXPRewardsConfig "{8227B4636C73C5B5}Configs/Campaign/CampaignXPRewards.conf"
+   m_fVehicleRepairXPMultiplier 0.5
+   m_mSeizeXPRewardConfig SCR_SeizeXpRewardConfig "{68DF7530E22D56F2}" {
+    m_aSeizeCompletionXpRewardList {
+     SCR_SeizeCompletionXpRewardInfo "{68DF7530E22D56F0}" {
+      m_iXPReward 25
+     }
+     SCR_SeizeCompletionXpRewardInfo "{68DF7530E22D56F7}" {
+      m_eBaseType SOURCE_BASE
+      m_iXPReward 50
+     }
+     SCR_SeizeCompletionXpRewardInfo "{68DF7530E22D56F6}" {
+      m_eBaseType CONTROL_POINT
+      m_iXPReward 150
+     }
+    }
+    m_aSeizeProgressionXpRewardList {
+     SCR_SeizeProgressionXpRewardInfo "{68DF7530E22D56F5}" {
+      m_sFactionKey "FIA"
+      m_iXPReward 5
+     }
+     SCR_SeizeProgressionXpRewardInfo "{68DF7530E22D56F4}" {
+      m_sFactionKey "USSR"
+      m_iXPReward 15
+     }
+     SCR_SeizeProgressionXpRewardInfo "{68DF7530E22D56FA}" {
+      m_sFactionKey "US"
+      m_iXPReward 15
+     }
+    }
+   }
+  }
+ }
+ PlayerControllerPrefab "{D39FCAB93FC4FB02}Prefabs/Characters/Core/DefaultPlayerControllerMP_Campaign.et"
+ m_eTestGameFlags 6
+ m_bAllowFactionChange 0
+ m_fAutoReloadTime 75
+ m_iControlPointsThreshold 4
+ m_fVictoryTimer 900
+ m_iSuppliesReplenishThreshold 6000
+ m_iQuickSuppliesReplenishThreshold 100
+ m_iRegularSuppliesIncome 10
+ m_iRegularSuppliesIncomeBase 0
+ m_iRegularSuppliesIncomeExtra 1
+ m_iHQStartingSupplies 1000
+ m_iMinStartingSupplies 75
+ m_iMaxStartingSupplies 250
+ m_bSuppliesAutoRegenerationEnabled 1
+ m_iSuppliesArrivalIntervalSource 5
+ {
+  SCR_EditorSettingsEntity {
+   ID "68DF7530E22CEAFC"
+   m_SkipStreamingRules {
+    CHARACTER
+   }
+  }
+ }
+}

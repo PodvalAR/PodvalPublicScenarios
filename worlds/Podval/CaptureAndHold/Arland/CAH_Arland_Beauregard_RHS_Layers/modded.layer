@@ -1,0 +1,109 @@
+SCR_FactionManager FactionManager_RHS_USAFxAFRF1 : "{00F0A1DE34342052}Prefabs/MP/Managers/Factions/Podval_FactionManager_RHS_USAFxAFRF.et" {
+ coords 3396.474 0 3053.14
+}
+$grp SCR_VehicleSpawn {
+ SCR_VehicleSpawn_1_Modded {
+  coords 2959.602 53.243 2298.262
+  angles 0 48.537 0
+  m_rnPrefab "{D9AC0E3578809137}Prefabs/Vehicles/Wheeled/M1240A1_MATV/M1240A1_MATV_Turret_Green.et"
+ }
+ SCR_VehicleSpawn_2_Modded {
+  coords 2967.315 53.887 2291.946
+  angles 0 32.598 0
+  m_rnPrefab "{D9AC0E3578809137}Prefabs/Vehicles/Wheeled/M1240A1_MATV/M1240A1_MATV_Turret_Green.et"
+ }
+ SCR_VehicleSpawn_3_Modded {
+  coords 2954.45 54.341 2281.734
+  angles 0 46.087 0
+  m_rnPrefab "{E2CF260389430BB3}Prefabs/Vehicles/Wheeled/LAV25/Podval_LAV25_RHS_NoStabilizer.et"
+  respawnDelay 60
+ }
+ SCR_VehicleSpawn_4_Modded {
+  coords 2916.155 31.847 3082.506
+  angles 0 -165 0
+  m_rnPrefab "{036A13629CB8DA39}Prefabs/Vehicles/Wheeled/TIGR/ArbaletDM/Podval_GAZ_TIGR_v2_Arbalet_PKM_Green_NoStabilizer.et"
+ }
+ SCR_VehicleSpawn_5_Modded {
+  coords 2907.402 31.857 3082.713
+  angles 0 -180 0
+  m_rnPrefab "{036A13629CB8DA39}Prefabs/Vehicles/Wheeled/TIGR/ArbaletDM/Podval_GAZ_TIGR_v2_Arbalet_PKM_Green_NoStabilizer.et"
+ }
+ SCR_VehicleSpawn_6_Modded {
+  coords 2911.678 33.254 3100.048
+  angles -5.356 180 0
+  m_rnPrefab "{2BB46B18B6CBEE4D}Prefabs/Vehicles/Wheeled/K4386/Podval_K4386_Armed_NoThermalNoStabilizer.et"
+  respawnDelay 60
+ }
+ {
+  coords 2628.508 98.758 2653.817
+  angles 0 123.537 0
+  m_rnPrefab "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et"
+ }
+ {
+  coords 3449.576 40.194 2615.51
+  angles 0 -57.402 0
+  m_rnPrefab "{CC55611936C21F25}Prefabs/Vehicles/Wheeled/M998/M1025_USAF.et"
+ }
+}
+$grp SCR_SpawnPoint : "{34D111B7A3470B7D}Prefabs/MP/Spawning/Podval_SpawnPoint_RHS_AFRF_MSV.et" {
+ {
+  coords 2891.161 36.591 3157.03
+  angles 0 150 0
+  m_iPriority 1
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "#AR-PODVAL-MapLocation_Beauregard_NorthRoad"
+  }
+ }
+ {
+  coords 2618.302 97.16 2668.928
+  angles 0 135 0
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "#AR-MapLocation_TimberRidge"
+  }
+ }
+}
+$grp SCR_CaptureAndHoldSpawnArea : "{790E7A53B763900D}Prefabs/MP/Modes/CaptureAndHold/SpawnAreas/Podval_CaptureAndHoldSpawnArea_RHS_USAF.et" {
+ {
+  coords 3469.254 40.711 2604.659
+  TriggerShapeType Sphere
+  SphereRadius 84.1
+ }
+ {
+  coords 2931.528 55.361 2261.913
+  TriggerShapeType Sphere
+  SphereRadius 84.1
+ }
+}
+SCR_LoadoutManager : "{A724D9B5940984BF}Prefabs/MP/Managers/Loadouts/Podval_LoadoutManager_RHS_USAFxAFRF.et" {
+ coords 3385.636 0 3063.145
+}
+$grp SCR_SpawnPoint : "{AE18B61A63B45D49}Prefabs/MP/Spawning/Podval_SpawnPoint_RHS_USAF_USMC.et" {
+ {
+  coords 3469.72 41.072 2608.486
+  angles 0 -105 0
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "#AR-PODVAL-MapLocation_WickPoint_Lighthouse"
+  }
+ }
+ {
+  coords 2932.397 55.316 2263.35
+  angles 0 45 0
+  m_iPriority 1
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "#AR-PODVAL-MapLocation_Beauregard_SouthRoad"
+  }
+ }
+}
+$grp SCR_CaptureAndHoldSpawnArea : "{DED346D089ABC856}Prefabs/MP/Modes/CaptureAndHold/SpawnAreas/Podval_CaptureAndHoldSpawnArea_RHS_AFRF.et" {
+ {
+  coords 2885.717 38.276 3126.311
+  TriggerShapeType Sphere
+  SphereRadius 84
+ }
+ {
+  coords 2643.878 98.83 2649.034
+  angles 0 30 0
+  TriggerShapeType Sphere
+  SphereRadius 84
+ }
+}

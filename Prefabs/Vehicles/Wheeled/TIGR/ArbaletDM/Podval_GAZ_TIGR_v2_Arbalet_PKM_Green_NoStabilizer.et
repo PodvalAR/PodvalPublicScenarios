@@ -1,0 +1,12 @@
+Vehicle : "{D21F4B92BB8228FC}Prefabs/Vehicles/Wheeled/TIGR/ArbaletDM/GAZ_TIGR_v2_Arbalet_PKM_Green.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{BCEC76769CFEFD2F}Prefabs/Vehicles/Wheeled/TIGR/VehParts/Turrets/Podval_TIGR_Gun_RWS_Arbalest_PKMT_NoStabilizer.et"
+    }
+   }
+  }
+ }
+}

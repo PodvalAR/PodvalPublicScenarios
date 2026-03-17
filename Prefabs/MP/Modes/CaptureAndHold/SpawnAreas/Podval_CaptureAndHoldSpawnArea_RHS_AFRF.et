@@ -1,0 +1,4 @@
+SCR_CaptureAndHoldSpawnArea : "{2FEAF8CA2E7EC24C}Prefabs/MP/Modes/CaptureAndHold/SpawnAreas/CaptureAndHoldSpawnArea_Base.et" {
+ ID "560ADB8D3A3D563C"
+ m_sFactionKey "RHS_AFRF"
+}

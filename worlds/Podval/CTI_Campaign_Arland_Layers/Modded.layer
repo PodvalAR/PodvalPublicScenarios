@@ -1,0 +1,8 @@
+SCR_CampaignFactionManager CampaignOriginalFactionManager1 : "{5EB3D80513BD51F6}Prefabs/MP/Campaign/Podval_CampaignFactionManager_RhsBritish.et" {
+ coords 0 0 0
+}
+SCR_GameModeCampaign GameMode_Campaign1 : "{80DC0F77624CC65E}Prefabs/MP/Modes/Conflict/Podva_GameMode_Campaign_RhsBritish.et" {
+ coords 26.726 0 10.962
+ m_iControlPointsThreshold 2
+ m_fVictoryTimer 450
+}

@@ -1,0 +1,19 @@
+Turret : "{C92225DD023B0878}Prefabs/Vehicles/Wheeled/K4386/VehParts/Turret_K4386.et" {
+ ID "51ACD0965653D003"
+ components {
+  RHS_TurretStabilizationComponent "{6265449F6C08755D}" {
+   Enabled 0
+  }
+  SCR_TurretControllerComponent "{51ACD09C61C183E4}" {
+  }
+  TurretComponent "{6265449F6C083A23}" {
+   components {
+    RHS_VehicleNightVisionComponent "{6265449F6C083AC1}" {
+     m_sNVGGooglesHDRMatrial "{FC8E1AB902D5938A}Assets/Items/Equipment/NVG/pvs14/data/NVG_GreenPhosphor_Veh_HDR.emat"
+     m_sNVGGooglesFilmGrainMaterial "{C52A43C51F58BF0B}Assets/Items/Equipment/NVG/pvs14/data/NVG_Effect_FilmGrain_RHS.emat"
+     m_bUseThermal 0
+    }
+   }
+  }
+ }
+}

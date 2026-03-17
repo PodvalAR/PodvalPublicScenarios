@@ -1,0 +1,9 @@
+Turret : "{BBDB67CCFE5AC039}Prefabs/Vehicles/Wheeled/TIGR/VehParts/Turrets/TIGR_Gun_RWS_Arbalest_PKMT.et" {
+ ID "51ACD0965653D003"
+ components {
+  TF_TurretStabilizationComponent "{654D35AD12294687}" {
+   Enabled 0
+   m_bStabilizationEnabled 0
+  }
+ }
+}
