@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{3DF669F279B0B6D7}Prefabs/Weapons/Rifles/M4A1/Rifle_Podval_M4A1_BLOCK_II_SU230_nocovers.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

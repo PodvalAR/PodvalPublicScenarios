@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{0B293A86E2DB9E05}Configs/Loadouts/AFRF/MSV/VKPO_S/Loadout_Podval_AFRF_AR.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}
