@@ -2,33 +2,33 @@ SCR_FactionManager FactionManager_RHS_USAFxAFRF1 : "{00F0A1DE34342052}Prefabs/MP
  coords 3396.474 0 3053.14
 }
 $grp SCR_VehicleSpawn {
- SCR_VehicleSpawn_1_Modded {
+ {
   coords 2959.602 53.243 2298.262
   angles 0 48.537 0
   m_rnPrefab "{D9AC0E3578809137}Prefabs/Vehicles/Wheeled/M1240A1_MATV/M1240A1_MATV_Turret_Green.et"
  }
- SCR_VehicleSpawn_2_Modded {
+ {
   coords 2967.315 53.887 2291.946
   angles 0 32.598 0
   m_rnPrefab "{D9AC0E3578809137}Prefabs/Vehicles/Wheeled/M1240A1_MATV/M1240A1_MATV_Turret_Green.et"
  }
- SCR_VehicleSpawn_3_Modded {
+ {
   coords 2954.45 54.341 2281.734
   angles 0 46.087 0
   m_rnPrefab "{E2CF260389430BB3}Prefabs/Vehicles/Wheeled/LAV25/Podval_LAV25_RHS_NoStabilizer.et"
   respawnDelay 60
  }
- SCR_VehicleSpawn_4_Modded {
+ {
   coords 2916.155 31.847 3082.506
   angles 0 -165 0
   m_rnPrefab "{036A13629CB8DA39}Prefabs/Vehicles/Wheeled/TIGR/ArbaletDM/Podval_GAZ_TIGR_v2_Arbalet_PKM_Green_NoStabilizer.et"
  }
- SCR_VehicleSpawn_5_Modded {
+ {
   coords 2907.402 31.857 3082.713
   angles 0 -180 0
   m_rnPrefab "{036A13629CB8DA39}Prefabs/Vehicles/Wheeled/TIGR/ArbaletDM/Podval_GAZ_TIGR_v2_Arbalet_PKM_Green_NoStabilizer.et"
  }
- SCR_VehicleSpawn_6_Modded {
+ {
   coords 2911.678 33.254 3100.048
   angles -5.356 180 0
   m_rnPrefab "{2BB46B18B6CBEE4D}Prefabs/Vehicles/Wheeled/K4386/Podval_K4386_Armed_NoThermalNoStabilizer.et"
