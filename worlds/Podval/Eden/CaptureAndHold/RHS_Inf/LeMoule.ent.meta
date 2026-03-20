@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{B8B8F82A2DC852A4}worlds/Podval/Eden/CaptureAndHold/RHS_Inf/LeMoule.ent"
+ Configurations {
+  ENTResourceClass PC {
+  }
+  ENTResourceClass XBOX_ONE : PC {
+  }
+  ENTResourceClass XBOX_SERIES : PC {
+  }
+  ENTResourceClass PS4 : PC {
+  }
+  ENTResourceClass PS5 : PC {
+  }
+  ENTResourceClass HEADLESS : PC {
+  }
+ }
+}

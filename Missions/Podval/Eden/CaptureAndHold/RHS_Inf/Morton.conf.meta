@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{D9D3FCF00C3A8789}Missions/Podval/Eden/CaptureAndHold/RHS_Inf/Morton.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

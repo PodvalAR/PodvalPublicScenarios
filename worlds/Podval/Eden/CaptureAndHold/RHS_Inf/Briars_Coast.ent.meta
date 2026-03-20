@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{5A3A20E7719CBDDC}worlds/Podval/Eden/CaptureAndHold/RHS_Inf/Briars_Coast.ent"
+ Configurations {
+  ENTResourceClass PC {
+  }
+  ENTResourceClass XBOX_ONE : PC {
+  }
+  ENTResourceClass XBOX_SERIES : PC {
+  }
+  ENTResourceClass PS4 : PC {
+  }
+  ENTResourceClass PS5 : PC {
+  }
+  ENTResourceClass HEADLESS : PC {
+  }
+ }
+}

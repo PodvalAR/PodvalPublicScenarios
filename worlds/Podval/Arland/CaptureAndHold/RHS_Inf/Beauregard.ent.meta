@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{2CA9645551419D41}worlds/Podval/Arland/CaptureAndHold/RHS_Inf/Beauregard.ent"
+ Configurations {
+  ENTResourceClass PC {
+  }
+  ENTResourceClass XBOX_ONE : PC {
+  }
+  ENTResourceClass XBOX_SERIES : PC {
+  }
+  ENTResourceClass PS4 : PC {
+  }
+  ENTResourceClass PS5 : PC {
+  }
+  ENTResourceClass HEADLESS : PC {
+  }
+ }
+}
