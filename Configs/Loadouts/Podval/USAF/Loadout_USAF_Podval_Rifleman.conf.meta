@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{464CB9E3B144694B}Configs/Loadouts/USAF/USMC/MEF/Loadout_USAF_Podval_Rifleman.conf"
+ Name "{464CB9E3B144694B}Configs/Loadouts/Podval/USAF/Loadout_USAF_Podval_Rifleman.conf"
  Configurations {
   CONFResourceClass PC {
   }
