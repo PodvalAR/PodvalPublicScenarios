@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{7C87658A41327D7B}Prefabs/Vehicles/Wheeled/K4386/VehParts/Podval_Turret_K4386_NoThermal.et"
+ Name "{7C87658A41327D7B}Prefabs/Vehicles/Wheeled/K4386/VehParts/Podval_Turret_K4386_NoThermalNoStabilizer.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }

@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{78BB9E91CD32AF9C}Prefabs/MP/Podval_CaptureAndHoldPreloadManager_RHS.et"
+ Name "{78BB9E91CD32AF9C}Prefabs/MP/Podval_CaptureAndHoldPreloadManager_RHS_Base.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
