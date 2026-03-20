@@ -38,6 +38,15 @@ StringTable {
    Author "Vlad333000"
    LastChanged "Vlad333000"
   }
+  CustomStringTableItem "{68E8A5CA2482D206}" {
+   Id "AR-PODVAL-CAH-Scenario_Description_Castle_RHS"
+   Target_en_us "A small number of US troops are fighting for their lives. Cut off by the Russian forces at Pennants Pass and retreating from Saint-Pierre, they now have no choice but to secure the Montfort Castle. From this ancient stronghold they may be able to hold out, but just a little longer..."
+   Target_ru_ru "Немногочисленным американским подразделениям, отрезанным силами ВС РФ на перевале Пеннант и отходящим от Сент-Пьерра, приходится теперь держать оборону в замке Монфор. Возможно, им удастся продержаться в этой древней крепости, но совсем недолго..."
+   Status TRANSLATION_PENDING
+   Modified 1760079411
+   Author "Vlad333000"
+   LastChanged "Vlad333000"
+  }
   CustomStringTableItem "{68E0A2A8E436F154}" {
    Id "AR-PODVAL-CAH-Scenario_Name_Beauregard_RHS"
    Target_en_us "Capture & Hold - Beauregard RHS"
@@ -71,6 +80,24 @@ StringTable {
    Target_ru_ru "Capture & Hold - Дикие Поля RHS Пехотный"
    Status TRANSLATION_PENDING
    Modified 1760076751
+   Author "Vlad333000"
+   LastChanged "Vlad333000"
+  }
+  CustomStringTableItem "{68E8A5CA3EFBDA16}" {
+   Id "AR-PODVAL-CAH-Scenario_Name_Castle_RHS"
+   Target_en_us "Capture & Hold - Montfort Castle RHS"
+   Target_ru_ru "Capture & Hold - Замок Монфорт RHS"
+   Status TRANSLATION_PENDING
+   Modified 1760079371
+   Author "Vlad333000"
+   LastChanged "Vlad333000"
+  }
+  CustomStringTableItem "{68E8A5CA20A7BF70}" {
+   Id "AR-PODVAL-CAH-Scenario_Name_Castle_RHS_Inf"
+   Target_en_us "Capture & Hold - Montfort Castle RHS Infantry"
+   Target_ru_ru "Capture & Hold - Замок Монфорт RHS Пехотный"
+   Status TRANSLATION_PENDING
+   Modified 1760079369
    Author "Vlad333000"
    LastChanged "Vlad333000"
   }

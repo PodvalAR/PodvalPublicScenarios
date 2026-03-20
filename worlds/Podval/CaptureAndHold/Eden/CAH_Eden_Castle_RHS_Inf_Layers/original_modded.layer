@@ -1,0 +1,187 @@
+SCR_FactionManager FactionManager2 : "{00F0A1DE34342052}Prefabs/MP/Managers/Factions/Podval_FactionManager_RHS_USAFxAFRF.et" {
+ coords 9312.922 195.748 1141.817
+}
+$grp SCR_SpawnPoint : "{34D111B7A3470B7D}Prefabs/MP/Spawning/Podval_SpawnPoint_RHS_AFRF_MSV.et" {
+ {
+  coords 9299.29 181.39 1269.569
+  angles 0 155.247 0
+  m_iPriority 1
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "#AR-CAH-SpawnArea_USSR_C"
+  }
+  {
+   $grp SCR_PlayerSpawnPoint : "{F6CAD21EDD2D1964}Prefabs/MP/Spawning/PlayerSpawnPoint.et" {
+    {
+     coords -1.667 -0.631 -1.084
+     angles 0 -1.247 0
+    }
+    {
+     coords 2.202 0.702 0.376
+     angles 0 -1.247 0
+    }
+    {
+     coords 0.315 -0.301 -3.473
+     angles 0 -1.247 0
+    }
+   }
+  }
+ }
+ {
+  coords 9444.68 160.12 1227.512
+  angles 0 -119.753 0
+  m_iPriority 2
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "#AR-CAH-SpawnArea_USSR_B"
+  }
+  {
+   $grp SCR_PlayerSpawnPoint : "{F6CAD21EDD2D1964}Prefabs/MP/Spawning/PlayerSpawnPoint.et" {
+    {
+     coords 3.096 -2.275 -5.148
+     angles 0 -1.247 0
+    }
+    {
+     coords 1.409 -0.621 -1.316
+     angles 0 -1.247 0
+    }
+    {
+     coords -3.927 -1.282 -3.037
+     angles 0 3.753 0
+    }
+   }
+  }
+ }
+ {
+  coords 9371.801 157.484 1266.485
+  angles 0 170.247 0
+  m_iPriority 3
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "#AR-CAH-SpawnArea_USSR_A"
+  }
+  {
+   $grp SCR_PlayerSpawnPoint : "{F6CAD21EDD2D1964}Prefabs/MP/Spawning/PlayerSpawnPoint.et" {
+    {
+     coords -1.669 -0.549 -1.084
+     angles 0 -1.247 0
+    }
+    {
+     coords 2.201 0.363 0.376
+     angles 0 -1.247 0
+    }
+    {
+     coords 0.31 -1.333 -3.473
+     angles 0 -1.247 0
+    }
+   }
+  }
+ }
+}
+$grp SCR_CaptureAndHoldSpawnArea : "{790E7A53B763900D}Prefabs/MP/Modes/CaptureAndHold/SpawnAreas/Podval_CaptureAndHoldSpawnArea_RHS_USAF.et" {
+ {
+  coords 9386.121 178.067 992.356
+  BoxMins -250 -75 -75
+  BoxMaxs 250 10 125
+ }
+ {
+  coords 9208.823 191.377 1126.831
+  angles 0 90 0
+  BoxMins -110 -50 -75
+  BoxMaxs 25 50 75
+ }
+}
+SCR_LoadoutManager LoadoutManager2 : "{A724D9B5940984BF}Prefabs/MP/Managers/Loadouts/Podval_LoadoutManager_RHS_USAFxAFRF.et" {
+ coords 7568.646 166.722 4200.58
+}
+$grp SCR_SpawnPoint : "{AE18B61A63B45D49}Prefabs/MP/Spawning/Podval_SpawnPoint_RHS_USAF_USMC.et" {
+ {
+  coords 9251.609 197.89 1135.611
+  angles 0 32 0
+  m_iPriority 1
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "#AR-CAH-SpawnArea_US_C"
+  }
+  {
+   $grp SCR_PlayerSpawnPoint : "{F6CAD21EDD2D1964}Prefabs/MP/Spawning/PlayerSpawnPoint.et" {
+    {
+     coords -1.587 -0.065 -3.665
+     angles 0 41.477 0
+    }
+    {
+     coords 0.99 0.021 3.908
+     angles 0 50.562 0
+    }
+    {
+     coords 3.088 -0.398 -4.398
+     angles 0 46.358 0
+    }
+   }
+  }
+ }
+ {
+  coords 9264.967 182.109 1072.713
+  angles 0 3 0
+  m_iPriority 2
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "#AR-CAH-SpawnArea_US_B"
+  }
+  {
+   $grp SCR_PlayerSpawnPoint : "{F6CAD21EDD2D1964}Prefabs/MP/Spawning/PlayerSpawnPoint.et" {
+    {
+     coords 7.874 -1.192 -15.678
+     angles 0 21 0
+    }
+    {
+     coords -1.159 -0.38 -5.46
+     angles 0 24.173 0
+    }
+    {
+     coords 6.842 -0.811 -11.742
+     angles 0 20.419 0
+    }
+   }
+  }
+ }
+ {
+  coords 9314.024 180.191 1065.695
+  angles 0 -65 0
+  m_iPriority 3
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "#AR-CAH-SpawnArea_US_A"
+  }
+  {
+   $grp SCR_PlayerSpawnPoint : "{F6CAD21EDD2D1964}Prefabs/MP/Spawning/PlayerSpawnPoint.et" {
+    {
+     coords -1.587 0.159 1.89
+     angles 0 4 0
+    }
+    {
+     coords 1.006 -0.282 -3.254
+     angles 0 -2 0
+    }
+    {
+     coords -1.311 -0.321 -4.038
+     angles 0 -3 0
+    }
+   }
+  }
+ }
+}
+$grp SCR_CaptureAndHoldSpawnArea : "{DED346D089ABC856}Prefabs/MP/Modes/CaptureAndHold/SpawnAreas/Podval_CaptureAndHoldSpawnArea_RHS_AFRF.et" {
+ {
+  coords 9386.442 151.355 1198.293
+  SphereRadius 50
+  BoxMins -250 -100 40
+  BoxMaxs 250 75 250
+ }
+ {
+  coords 9585.254 111.319 1127.399
+  SphereRadius 50
+  BoxMins -100 -100 -8
+  BoxMaxs 50 75 110
+ }
+ {
+  coords 9509.604 151.355 1212.602
+  SphereRadius 50
+  BoxMins -225 -100 -22
+  BoxMaxs 25 75 25
+ }
+}
