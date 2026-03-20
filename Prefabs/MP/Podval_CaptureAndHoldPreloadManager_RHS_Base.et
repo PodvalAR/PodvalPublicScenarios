@@ -1,0 +1,141 @@
+BasePreloadManager {
+ ID "68E8CA316A42A6FB"
+ PrefabsToPreload {
+  PreloadEntry "{68E8CA30C128447F}" {
+   Prefab "{3CDCB0C8FEEF9E46}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_Podval_RHS_RF_MSV_VKPO_S_AR.et"
+   FullyPreload 1
+  }
+  PreloadEntry "{68E8CA30CC0F4B02}" {
+   Prefab "{E474D9098766801A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_Podval_RHS_RF_MSV_VKPO_S_AT.et"
+   FullyPreload 1
+  }
+  PreloadEntry "{68E8CA30CC14726F}" {
+   Prefab "{3109CEE90958F76C}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_Podval_RHS_RF_MSV_VKPO_S_GL.et"
+   FullyPreload 1
+  }
+  PreloadEntry "{68E8CA30CFFC97D4}" {
+   Prefab "{6ECB6ED290A08AA5}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_Podval_RHS_RF_MSV_VKPO_S_MG.et"
+   FullyPreload 1
+  }
+  PreloadEntry "{68E8CA30CFC5867E}" {
+   Prefab "{30A6FDB06685F356}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_Podval_RHS_RF_MSV_VKPO_S_Rifleman.et"
+   FullyPreload 1
+  }
+  PreloadEntry "{68E8CA30CFAD14DF}" {
+   Prefab "{5F3A9E74738E30B1}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_Podval_RHS_RF_MSV_VKPO_S_Sharpshooter.et"
+   FullyPreload 1
+  }
+  PreloadEntry "{68E8CA30CFB7F26E}" {
+   Prefab "{6D23CAB3502EBF3E}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_Podval_RHS_USAF_USMC_AR.et"
+   FullyPreload 1
+  }
+  PreloadEntry "{68E8CA302CFE8D79}" {
+   Prefab "{60F6B492A799D614}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_Podval_RHS_USAF_USMC_GL.et"
+   FullyPreload 1
+  }
+  PreloadEntry "{68E8CA302CA7B208}" {
+   Prefab "{7A2CD5C07BBF7FD5}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_Podval_RHS_USAF_USMC_LAT.et"
+   FullyPreload 1
+  }
+  PreloadEntry "{68E8CA302C673F8A}" {
+   Prefab "{3F3414A93E61ABDD}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_Podval_RHS_USAF_USMC_MG.et"
+   FullyPreload 1
+  }
+  PreloadEntry "{68E8CA302C20F1EC}" {
+   Prefab "{0208430E0DF9606C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_Podval_RHS_USAF_USMC_Sniper.et"
+   FullyPreload 1
+  }
+  PreloadEntry "{68E8CA302FFD86E4}" {
+   Prefab "{3AB4CA3D88DB69FA}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_Podval_USMC_Rifleman.et"
+   FullyPreload 1
+  }
+  PreloadEntry "{68E8CA3738254DDC}" {
+   Prefab "{B343AB76B0725657}Prefabs/Items/Equipment/Radios/Radio_R187P1_OLD.et"
+   FullyPreload 1
+  }
+  PreloadEntry "{68E8CA37380D78F3}" {
+   Prefab "{D69684663E89D6EA}Prefabs/Items/Equipment/Radios/Radio_ANPRC152A_OLD.et"
+   FullyPreload 1
+  }
+  PreloadEntry "{68E8CA3772B13B3C}" {
+   Prefab "{8673F10B6993BE33}Prefabs/Weapons/MachineGuns/RPK74M/MG_RPK74M_1P78.et"
+   FullyPreload 1
+  }
+  PreloadEntry "{68E8CA3775F35667}" {
+   Prefab "{805927DD98352C9B}Prefabs/Weapons/Rifles/AK74M/Rifle_AK74M_npz_rail_1p87.et"
+   FullyPreload 1
+  }
+  PreloadEntry "{68E8CA3775DA1D6F}" {
+   Prefab "{4A79F283F7DA624F}Prefabs/Weapons/Rifles/AK74M/Rifle_AK74M_1P78_GP25.et"
+   FullyPreload 1
+  }
+  PreloadEntry "{68E8CA3775A07F35}" {
+   Prefab "{BC090DB2DEE8D5FB}Prefabs/Weapons/MachineGuns/PKM/MG_PKM_B51_1p86.et"
+   FullyPreload 1
+  }
+  PreloadEntry "{68E8CA3775891366}" {
+   Prefab "{F55D67A121EBB20E}Prefabs/Weapons/Rifles/AK74M/Rifle_AK74M_npz_rail_1p86-1.et"
+   FullyPreload 1
+  }
+  PreloadEntry "{68E8CA377591902C}" {
+   Prefab "{6415B7923DE28C1B}Prefabs/Weapons/Rifles/SVD/Rifle_SVD_PSO.et"
+   FullyPreload 1
+  }
+  PreloadEntry "{68E8CA36F52C30AB}" {
+   Prefab "{D2B48DEBEF38D7D7}Prefabs/Weapons/MachineGuns/M249/MG_M249.et"
+   FullyPreload 1
+  }
+  PreloadEntry "{68E8CA36F4F51321}" {
+   Prefab "{832641A2AB3E89F6}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_M203_RAS_Aimpoint.et"
+   FullyPreload 1
+  }
+  PreloadEntry "{68E8CA36F4B3F3D6}" {
+   Prefab "{0761CE8644BBB28E}Prefabs/Weapons/Rifles/M27IAR/Rifle_M27IAR_TA31RCO.et"
+   FullyPreload 1
+  }
+  PreloadEntry "{68E8CA36F44EF39E}" {
+   Prefab "{441C6358A2167AE3}Prefabs/Weapons/MachineGuns/M240/MG_M240_MDO.et"
+   FullyPreload 1
+  }
+  PreloadEntry "{68E8CA36F40DD649}" {
+   Prefab "{56CE827F9AD5880E}Prefabs/Weapons/Rifles/M40/Rifle_M40A5_Optic_PEQ.et"
+   FullyPreload 1
+  }
+  PreloadEntry "{68E8CA36F7C135D6}" {
+   Prefab "{3DF669F279B0B6D7}Prefabs/Weapons/Rifles/M4A1/Rifle_Podval_M4A1_BLOCK_II_SU230_nocovers.et"
+   FullyPreload 1
+  }
+  PreloadEntry "{68E8CA36346E968A}" {
+   Prefab "{E8A55396050E1762}Prefabs/Weapons/Launchers/RPG7/Launcher_RPG7_pgo7.et"
+   FullyPreload 1
+  }
+  PreloadEntry "{68E8CA3634246BDA}" {
+   Prefab "{9C5C20FB0E01E64F}Prefabs/Weapons/Launchers/M72/Launcher_M72A3.et"
+   FullyPreload 1
+  }
+  PreloadEntry "{68E8CA36141FAD15}" {
+   Prefab "{1F9DA556822C78DA}Prefabs/Weapons/Handguns/M17/Handgun_M18.et"
+   FullyPreload 1
+  }
+  PreloadEntry "{68E8CA3617E8BC3E}" {
+   Prefab "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et"
+   FullyPreload 1
+  }
+  PreloadEntry "{68E8CA3665A9538F}" {
+   Prefab "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+   FullyPreload 1
+  }
+  PreloadEntry "{68E8CA366564F83D}" {
+   Prefab "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+   FullyPreload 1
+  }
+  PreloadEntry "{68E8CA366528FACD}" {
+   Prefab "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+   FullyPreload 1
+  }
+  PreloadEntry "{68E8CA366515A53A}" {
+   Prefab "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+   FullyPreload 1
+  }
+ }
+}

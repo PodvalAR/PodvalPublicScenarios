@@ -1,0 +1,29 @@
+BasePreloadManager : "{78BB9E91CD32AF9C}Prefabs/MP/Podval_CaptureAndHoldPreloadManager_RHS_Base.et" {
+ ID "68E8CA316A42A6FB"
+ PrefabsToPreload {
+  PreloadEntry "{68E8CA3588EF3038}" {
+   Prefab "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et"
+   FullyPreload 1
+  }
+  PreloadEntry "{68E8CA358F774805}" {
+   Prefab "{036A13629CB8DA39}Prefabs/Vehicles/Wheeled/TIGR/ArbaletDM/Podval_GAZ_TIGR_v2_Arbalet_PKM_Green_NoStabilizer.et"
+   FullyPreload 1
+  }
+  PreloadEntry "{68E8CA358F0D0D2B}" {
+   Prefab "{2BB46B18B6CBEE4D}Prefabs/Vehicles/Wheeled/K4386/Podval_K4386_Armed_NoThermalNoStabilizer.et"
+   FullyPreload 1
+  }
+  PreloadEntry "{68E8CA35F022BF48}" {
+   Prefab "{CC55611936C21F25}Prefabs/Vehicles/Wheeled/M998/M1025_USAF.et"
+   FullyPreload 1
+  }
+  PreloadEntry "{68E8CA35F00622FC}" {
+   Prefab "{D9AC0E3578809137}Prefabs/Vehicles/Wheeled/M1240A1_MATV/M1240A1_MATV_Turret_Green.et"
+   FullyPreload 1
+  }
+  PreloadEntry "{68E8CA35F9C3C3E8}" {
+   Prefab "{E2CF260389430BB3}Prefabs/Vehicles/Wheeled/LAV25/Podval_LAV25_RHS_NoStabilizer.et"
+   FullyPreload 1
+  }
+ }
+}
