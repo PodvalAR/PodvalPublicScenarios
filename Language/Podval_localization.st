@@ -74,6 +74,15 @@ StringTable {
    Author "Vlad333000"
    LastChanged "Vlad333000"
   }
+  CustomStringTableItem "{68E8A5D9CB3DFC38}" {
+   Id "AR-PODVAL-CAH-Scenario_Description_LeMoule_RHS"
+   Target_en_us "Russian forces have taken Lamentin. However, NATO forces based at Montignac have responded swiftly, ambushing Russian armor at Le Moule. They must now drive a wedge between this village and the beachhead at Morton, if they wish to hold the island!"
+   Target_ru_ru "Российские войска захватили Ламантин. Однако силы НАТО, базирующиеся в Монтиньяке, быстро отреагировали, устроив засаду на российскую бронетехнику в Ле-Муле. Теперь они должны вклиниться между этой деревней и плацдармом в Мортоне, если хотят удержать остров!"
+   Status TRANSLATION_PENDING
+   Modified 1760085464
+   Author "Vlad333000"
+   LastChanged "Vlad333000"
+  }
   CustomStringTableItem "{68E0A2A8E436F154}" {
    Id "AR-PODVAL-CAH-Scenario_Name_Beauregard_RHS"
    Target_en_us "Capture & Hold - Beauregard RHS"
@@ -179,6 +188,24 @@ StringTable {
    Target_ru_ru "Capture & Hold — Лес Саймона RHS Пехотный"
    Status TRANSLATION_PENDING
    Modified 1760083652
+   Author "Vlad333000"
+   LastChanged "Vlad333000"
+  }
+  CustomStringTableItem "{68E8A5D9C3779350}" {
+   Id "AR-PODVAL-CAH-Scenario_Name_LeMoule_RHS"
+   Target_en_us "Capture & Hold - Le Moule RHS"
+   Target_ru_ru "Capture & Hold — Ле—Муль RHS"
+   Status TRANSLATION_PENDING
+   Modified 1760085464
+   Author "Vlad333000"
+   LastChanged "Vlad333000"
+  }
+  CustomStringTableItem "{68E8A5D9C50D42AD}" {
+   Id "AR-PODVAL-CAH-Scenario_Name_LeMoule_RHS_Inf"
+   Target_en_us "Capture & Hold - Le Moule RHS Infantry"
+   Target_ru_ru "Capture & Hold — Ле—Муль RHS Пехотный"
+   Status TRANSLATION_PENDING
+   Modified 1760085464
    Author "Vlad333000"
    LastChanged "Vlad333000"
   }
