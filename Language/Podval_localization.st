@@ -56,6 +56,15 @@ StringTable {
    Author "Vlad333000"
    LastChanged "Vlad333000"
   }
+  CustomStringTableItem "{68E8A5C32B20555C}" {
+   Id "AR-PODVAL-CAH-Scenario_Description_Factory_RHS"
+   Target_en_us "Saint-Philippe hangs in the balance. Fierce fighting around the furniture factory on the outskirts of the town has forced both sides from the site. But such an impasse cannot last — whoever captures and reinforces this position will most likely take the capital, and Everon itself."
+   Target_ru_ru "Сент-Филипп висит на волоске. Ожесточенные бои вокруг мебельной фабрики на окраине города вынудили обе стороны покинуть это место. Но такое положение дел не может длиться вечно — тот, кто захватит и укрепит эту позицию, скорее всего, захватит и столицу, и Эверон в целом."
+   Status TRANSLATION_PENDING
+   Modified 1760082604
+   Author "Vlad333000"
+   LastChanged "Vlad333000"
+  }
   CustomStringTableItem "{68E0A2A8E436F154}" {
    Id "AR-PODVAL-CAH-Scenario_Name_Beauregard_RHS"
    Target_en_us "Capture & Hold - Beauregard RHS"
@@ -125,6 +134,24 @@ StringTable {
    Target_ru_ru "Capture & Hold — Бетонный завод RHS Пехотный"
    Status TRANSLATION_PENDING
    Modified 1760080970
+   Author "Vlad333000"
+   LastChanged "Vlad333000"
+  }
+  CustomStringTableItem "{68E8A5C324DE7C49}" {
+   Id "AR-PODVAL-CAH-Scenario_Name_Factory_RHS"
+   Target_en_us "Capture & Hold - Almara Factory RHS"
+   Target_ru_ru "Capture & Hold — Завод Almara RHS"
+   Status TRANSLATION_PENDING
+   Modified 1760082609
+   Author "Vlad333000"
+   LastChanged "Vlad333000"
+  }
+  CustomStringTableItem "{68E8A5C326FAD3FD}" {
+   Id "AR-PODVAL-CAH-Scenario_Name_Factory_RHS_Inf"
+   Target_en_us "Capture & Hold - Almara Factory RHS Infantry"
+   Target_ru_ru "Capture & Hold — Завод Almara RHS Infantry"
+   Status TRANSLATION_PENDING
+   Modified 1760082611
    Author "Vlad333000"
    LastChanged "Vlad333000"
   }
