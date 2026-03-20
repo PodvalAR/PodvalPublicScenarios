@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{A0DF4B9E65B8AED5}worlds/Podval/CaptureAndHold/Eden/CAH_Eden_Castle_RHS_Inf.ent"
+ Configurations {
+  ENTResourceClass PC {
+  }
+  ENTResourceClass XBOX_ONE : PC {
+  }
+  ENTResourceClass XBOX_SERIES : PC {
+  }
+  ENTResourceClass PS4 : PC {
+  }
+  ENTResourceClass PS5 : PC {
+  }
+  ENTResourceClass HEADLESS : PC {
+  }
+ }
+}
