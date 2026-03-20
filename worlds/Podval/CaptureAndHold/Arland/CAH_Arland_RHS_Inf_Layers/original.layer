@@ -1,0 +1,25 @@
+SCR_AIWorld AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+ coords 0 0 0
+}
+PerceptionManager PerceptionManager : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 0 0 0
+}
+RadioManagerEntity RadioManager : "{B8E09FAB91C4ECCD}Prefabs/Systems/Radio/RadioManager.et" {
+ coords 0 0 0
+}
+ScriptedChatEntity ChatEntity : "{F69BC912AC8236F9}Prefabs/MP/ScriptedChatEntity.et" {
+ coords 0 0 0
+}
+BasePreloadManager CaptureAndHoldPreloadManager1 : "{0E26864C62DBCA39}Prefabs/MP/CaptureAndHoldPreloadManager.et" {
+ Flags 0x200000 0
+ coords 0 0 0
+}
+MusicManager : "{359452CCDBDD03F5}Prefabs/Sounds/Music/MusicManager_Campaign.et" {
+ coords 0.502 0 0.107
+}
+SCR_MPDestructionManager DestructionManager : "{9BB369F2803C6F71}Prefabs/MP/MPDestructionManager.et" {
+ coords 0 0 0
+}
+ItemPreviewManagerEntity ItemPreviewManager : "{9F18C476AB860F3B}Prefabs/World/Game/ItemPreviewManager.et" {
+ coords 0 0 0
+}
