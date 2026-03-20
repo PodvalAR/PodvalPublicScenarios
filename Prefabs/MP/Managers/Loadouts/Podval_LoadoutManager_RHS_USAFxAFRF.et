@@ -1,17 +1,17 @@
 SCR_LoadoutManager : "{AA4E7419A1FF65B0}Prefabs/MP/Managers/Loadouts/LoadoutManager_Base.et" {
  ID "56B2B47708C4F23A"
  m_aPlayerLoadouts {
-  SCR_FactionPlayerLoadout "{56B2B461C34A570F}" : "{464CB9E3B144694B}Configs/Loadouts/Podval/USAF/Loadout_USAF_Podval_Rifleman.conf" {
+  SCR_FactionPlayerLoadout "{56B2B461C34A570F}" : "{464CB9E3B144694B}Configs/Loadouts/Podval/CaptureAndHold/RHS_Base/USAF/Loadout_USAF_Podval_Rifleman.conf" {
   }
-  SCR_FactionPlayerLoadout "{5A2494BE3D648F60}" : "{96EAD6C24C211848}Configs/Loadouts/Podval/USAF/Loadout_USAF_Podval_AR.conf" {
+  SCR_FactionPlayerLoadout "{5A2494BE3D648F60}" : "{96EAD6C24C211848}Configs/Loadouts/Podval/CaptureAndHold/RHS_Base/USAF/Loadout_USAF_Podval_AR.conf" {
   }
-  SCR_FactionPlayerLoadout "{56B2B461C275B309}" : "{03871D4361DBADD1}Configs/Loadouts/Podval/USAF/Loadout_USAF_Podval_MG.conf" {
+  SCR_FactionPlayerLoadout "{56B2B461C275B309}" : "{03871D4361DBADD1}Configs/Loadouts/Podval/CaptureAndHold/RHS_Base/USAF/Loadout_USAF_Podval_MG.conf" {
   }
-  SCR_FactionPlayerLoadout "{56B2B461C7495F41}" : "{4CD0AD14F0A3FE06}Configs/Loadouts/Podval/USAF/Loadout_USAF_Podval_GL.conf" {
+  SCR_FactionPlayerLoadout "{56B2B461C7495F41}" : "{4CD0AD14F0A3FE06}Configs/Loadouts/Podval/CaptureAndHold/RHS_Base/USAF/Loadout_USAF_Podval_GL.conf" {
   }
-  SCR_FactionPlayerLoadout "{56B2B461C047DCDA}" : "{50DCAA37566CB677}Configs/Loadouts/Podval/USAF/Loadout_USAF_Podval_LAT.conf" {
+  SCR_FactionPlayerLoadout "{56B2B461C047DCDA}" : "{50DCAA37566CB677}Configs/Loadouts/Podval/CaptureAndHold/RHS_Base/USAF/Loadout_USAF_Podval_LAT.conf" {
   }
-  SCR_FactionPlayerLoadout "{56B2B4613C48D08E}" : "{2CCC148868995606}Configs/Loadouts/Podval/USAF/Loadout_USAF_Podval_Sniper.conf" {
+  SCR_FactionPlayerLoadout "{56B2B4613C48D08E}" : "{2CCC148868995606}Configs/Loadouts/Podval/CaptureAndHold/RHS_Base/USAF/Loadout_USAF_Podval_Sniper.conf" {
   }
   SCR_FactionPlayerLoadout "{56B2B46134D39388}" : "{8DA1402F7E0F7EFA}Configs/Loadouts/AFRF/MSV/VKPO_S/Loadout_AFRF_Rifleman.conf" {
   }
