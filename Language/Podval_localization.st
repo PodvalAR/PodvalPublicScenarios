@@ -83,6 +83,15 @@ StringTable {
    Author "Vlad333000"
    LastChanged "Vlad333000"
   }
+  CustomStringTableItem "{68E8A5DB247D4EC8}" {
+   Id "AR-PODVAL-CAH-Scenario_Description_Military_Base_RHS"
+   Target_en_us "Camp Blake, just south of the village of Levie, overlooks the main road from Saint-Pierre. Additionally, it's situated on a natural chokepoint, where the island narrows. A victory here will cut Everon in half."
+   Target_ru_ru "Лагерь «Блейк», чуть южнее деревни Леви, контролирует главную дорогу, идущую из Сен-Пьера. Кроме того, он находится в месте, где остров сужается. Победа здесь разрежет Эверон пополам."
+   Status TRANSLATION_PENDING
+   Modified 1760086469
+   Author "Vlad333000"
+   LastChanged "Vlad333000"
+  }
   CustomStringTableItem "{68E0A2A8E436F154}" {
    Id "AR-PODVAL-CAH-Scenario_Name_Beauregard_RHS"
    Target_en_us "Capture & Hold - Beauregard RHS"
@@ -206,6 +215,24 @@ StringTable {
    Target_ru_ru "Capture & Hold — Ле—Муль RHS Пехотный"
    Status TRANSLATION_PENDING
    Modified 1760085464
+   Author "Vlad333000"
+   LastChanged "Vlad333000"
+  }
+  CustomStringTableItem "{68E8A5DB2D294065}" {
+   Id "AR-PODVAL-CAH-Scenario_Name_Military_Base_RHS"
+   Target_en_us "Capture & Hold - Camp Blake RHS"
+   Target_ru_ru "Capture & Hold — Лагерь Блейк RHS"
+   Status TRANSLATION_PENDING
+   Modified 1760086469
+   Author "Vlad333000"
+   LastChanged "Vlad333000"
+  }
+  CustomStringTableItem "{68E8A5DB2F3DDA8F}" {
+   Id "AR-PODVAL-CAH-Scenario_Name_Military_Base_RHS_Inf"
+   Target_en_us "Capture & Hold - Camp Blake RHS Infantry"
+   Target_ru_ru "Capture & Hold — Лагерь Блейк RHS Пехотный"
+   Status TRANSLATION_PENDING
+   Modified 1760086469
    Author "Vlad333000"
    LastChanged "Vlad333000"
   }
