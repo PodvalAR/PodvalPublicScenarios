@@ -182,7 +182,7 @@ $grp SCR_CaptureAndHoldSpawnArea : "{790E7A53B763900D}Prefabs/MP/Modes/CaptureAn
   BoxMaxs 12 10 0
  }
 }
-SCR_LoadoutManager LoadoutManager2 : "{A724D9B5940984BF}Prefabs/MP/Managers/Loadouts/Podval_LoadoutManager_RHS_USAFxAFRF.et" {
+SCR_LoadoutManager LoadoutManager2 : "{0E284E5172125AAE}Prefabs/MP/Managers/Loadouts/Podval_LoadoutManager_RHS_USAFxAFRF_Inf.et" {
  coords 7568.646 166.722 4200.58
 }
 $grp SCR_SpawnPoint : "{AE18B61A63B45D49}Prefabs/MP/Spawning/Podval_SpawnPoint_RHS_USAF_USMC.et" {

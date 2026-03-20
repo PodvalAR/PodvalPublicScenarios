@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{A724D9B5940984C0}Prefabs/MP/Managers/Loadouts/Podval_LoadoutManager_RHS_USAFxAFRF.et"
+ Name "{A724D9B5940984BF}Prefabs/MP/Managers/Loadouts/Podval_LoadoutManager_RHS_USAFxAFRF_Base.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
