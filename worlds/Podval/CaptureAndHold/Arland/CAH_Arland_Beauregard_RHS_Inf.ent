@@ -1,3 +1,3 @@
 SubScene {
- Parent "{54332C7D7BE2F19D}worlds/CaptureAndHold/CAH_BaseWorld_Arland.ent"
+ Parent "{9E34740A149F651D}worlds/Podval/CaptureAndHold/Arland/CAH_Arland_RHS_Inf.ent"
 }
