@@ -1,0 +1,146 @@
+SCR_FactionManager FactionManager2 : "{00F0A1DE34342052}Prefabs/MP/Managers/Factions/Podval_FactionManager_RHS_USAFxAFRF.et" {
+ coords 5042.023 27.781 10845.379
+}
+$grp SCR_SpawnPoint : "{34D111B7A3470B7D}Prefabs/MP/Spawning/Podval_SpawnPoint_RHS_AFRF_MSV.et" {
+ {
+  coords 5232.593 33.722 10987.716
+  angles 0 -128 0
+  m_iPriority 2
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "#AR-CAH-SpawnArea_USSR_A"
+  }
+  {
+   $grp SCR_PlayerSpawnPoint : "{F6CAD21EDD2D1964}Prefabs/MP/Spawning/PlayerSpawnPoint.et" {
+    {
+     coords -3.483 0.017 0.457
+     angles 0 1 0
+    }
+    {
+     coords 3.126 0.219 -1.488
+     angles 0 1 0
+    }
+    {
+     coords 4.809 -0.007 3.81
+     angles 0 1 0
+    }
+    {
+     coords -5.293 0.447 -3.947
+     angles 0 1 0
+    }
+   }
+  }
+ }
+ {
+  coords 5100.435 33.88 11047.503
+  angles 0 -165 0
+  m_iPriority 1
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "#AR-CAH-SpawnArea_USSR_B"
+  }
+  {
+   $grp SCR_PlayerSpawnPoint : "{F6CAD21EDD2D1964}Prefabs/MP/Spawning/PlayerSpawnPoint.et" {
+    {
+     coords -3.372 -0.087 -2.215
+    }
+    {
+     coords -6.292 0.387 2.446
+    }
+    {
+     coords 3.853 0.353 4.509
+    }
+    {
+     coords 4.401 -0.003 -2.227
+    }
+   }
+  }
+ }
+}
+$grp SCR_CaptureAndHoldSpawnArea : "{790E7A53B763900D}Prefabs/MP/Modes/CaptureAndHold/SpawnAreas/Podval_CaptureAndHoldSpawnArea_RHS_USAF.et" {
+ {
+  coords 5002.874 33.495 10658.54
+  angles 0 116 0
+  TriggerShapeType Sphere
+  SphereRadius 75
+ }
+ {
+  coords 5039.551 31.06 10766.023
+  angles 0 3.924 0
+  BoxMins -600 -50 -150
+  BoxMaxs 50 50 50
+ }
+ {
+  coords 5109.171 31.538 10768.887
+  angles 0 -7.517 0
+  BoxMins -50 -50 -150
+  BoxMaxs 600 50 50
+ }
+ {
+  coords 5238.781 31.13 10820.968
+  angles 0 -7.517 0
+  BoxMins -50 -50 15
+  BoxMaxs 150 50 50
+ }
+}
+SCR_LoadoutManager LoadoutManager2 : "{A724D9B5940984BF}Prefabs/MP/Managers/Loadouts/Podval_LoadoutManager_RHS_USAFxAFRF.et" {
+ coords 7568.646 166.722 4200.58
+}
+$grp SCR_SpawnPoint : "{AE18B61A63B45D49}Prefabs/MP/Spawning/Podval_SpawnPoint_RHS_USAF_USMC.et" {
+ {
+  coords 5014.244 35.018 10664.395
+  angles 0 -6 0
+  m_iPriority 1
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "#AR-CAH-SpawnArea_US_A"
+  }
+  {
+   $grp SCR_PlayerSpawnPoint : "{F6CAD21EDD2D1964}Prefabs/MP/Spawning/PlayerSpawnPoint.et" {
+    {
+     coords -3.47 -0.468 1.1
+    }
+    {
+     coords -1.817 -0.242 -2.545
+    }
+    {
+     coords 2.011 0.272 -0.043
+    }
+    {
+     coords 3.165 0.41 -2.907
+    }
+   }
+  }
+ }
+ {
+  coords 5154.416 40.257 10699.606
+  angles 0 -41 0
+  m_iPriority 2
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "#AR-CAH-SpawnArea_US_B"
+  }
+  {
+   $grp SCR_PlayerSpawnPoint : "{F6CAD21EDD2D1964}Prefabs/MP/Spawning/PlayerSpawnPoint.et" {
+    {
+     coords -3.739 -0.178 2.308
+     angles 0 2 0
+    }
+    {
+     coords -3.095 0.272 -1.636
+     angles 0 2 0
+    }
+    {
+     coords 1.396 -0.371 2.508
+     angles 0 2 0
+    }
+    {
+     coords 3.852 -0.14 -1.601
+     angles 0 2 0
+    }
+   }
+  }
+ }
+}
+SCR_CaptureAndHoldSpawnArea : "{DED346D089ABC856}Prefabs/MP/Modes/CaptureAndHold/SpawnAreas/Podval_CaptureAndHoldSpawnArea_RHS_AFRF.et" {
+ coords 5054.576 28.413 10890.197
+ angles 0 -0.519 0
+ BoxMins -400 -10 -10
+ BoxMaxs 400 20 200
+}
