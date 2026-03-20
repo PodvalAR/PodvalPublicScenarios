@@ -47,6 +47,15 @@ StringTable {
    Author "Vlad333000"
    LastChanged "Vlad333000"
   }
+  CustomStringTableItem "{68E8A5CEAA46A689}" {
+   Id "AR-PODVAL-CAH-Scenario_Description_Concrete_Plant_RHS"
+   Target_en_us "The Arma-Beton concrete plant is a key defensive position on the road to Everon International. If Russian forces take it, they can stage an attack on the airport and surround US troops in Saint-Philippe!"
+   Target_ru_ru "Бетонный завод \"Arma-Beton\" — ключевая оборонительная позиция по дороге в международный аэропорт Эверона. Если российские войска захватят его, они смогут организовать атаку на аэропорт и окружить американские войска в Сент-Филиппе!"
+   Status TRANSLATION_PENDING
+   Modified 1760080970
+   Author "Vlad333000"
+   LastChanged "Vlad333000"
+  }
   CustomStringTableItem "{68E0A2A8E436F154}" {
    Id "AR-PODVAL-CAH-Scenario_Name_Beauregard_RHS"
    Target_en_us "Capture & Hold - Beauregard RHS"
@@ -98,6 +107,24 @@ StringTable {
    Target_ru_ru "Capture & Hold - Замок Монфорт RHS Пехотный"
    Status TRANSLATION_PENDING
    Modified 1760079369
+   Author "Vlad333000"
+   LastChanged "Vlad333000"
+  }
+  CustomStringTableItem "{68E8A5CEAE0B375E}" {
+   Id "AR-PODVAL-CAH-Scenario_Name_Concrete_Plant_RHS"
+   Target_en_us "Capture & Hold - Concrete Plant RHS"
+   Target_ru_ru "Capture & Hold — Бетонный завод RHS"
+   Status TRANSLATION_PENDING
+   Modified 1760080970
+   Author "Vlad333000"
+   LastChanged "Vlad333000"
+  }
+  CustomStringTableItem "{68E8A5CE90051BEB}" {
+   Id "AR-PODVAL-CAH-Scenario_Name_Concrete_Plant_RHS_Inf"
+   Target_en_us "Capture & Hold - Concrete Plant RHS Infantry"
+   Target_ru_ru "Capture & Hold — Бетонный завод RHS Пехотный"
+   Status TRANSLATION_PENDING
+   Modified 1760080970
    Author "Vlad333000"
    LastChanged "Vlad333000"
   }
