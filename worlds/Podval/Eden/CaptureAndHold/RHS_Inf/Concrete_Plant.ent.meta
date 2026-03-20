@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{1716E4955D229B6D}worlds/Podval/Eden/CaptureAndHold/RHS_Inf/Concrete_Plant.ent"
+ Configurations {
+  ENTResourceClass PC {
+  }
+  ENTResourceClass XBOX_ONE : PC {
+  }
+  ENTResourceClass XBOX_SERIES : PC {
+  }
+  ENTResourceClass PS4 : PC {
+  }
+  ENTResourceClass PS5 : PC {
+  }
+  ENTResourceClass HEADLESS : PC {
+  }
+ }
+}

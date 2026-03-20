@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{AE8D37F53EE42D49}worlds/Podval/Eden/CaptureAndHold/RHS_Inf/Morton.ent"
+ Configurations {
+  ENTResourceClass PC {
+  }
+  ENTResourceClass XBOX_ONE : PC {
+  }
+  ENTResourceClass XBOX_SERIES : PC {
+  }
+  ENTResourceClass PS4 : PC {
+  }
+  ENTResourceClass PS5 : PC {
+  }
+  ENTResourceClass HEADLESS : PC {
+  }
+ }
+}
