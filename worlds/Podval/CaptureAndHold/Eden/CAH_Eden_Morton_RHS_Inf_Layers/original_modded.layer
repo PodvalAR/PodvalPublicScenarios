@@ -1,0 +1,347 @@
+SCR_FactionManager FactionManager2 : "{00F0A1DE34342052}Prefabs/MP/Managers/Factions/Podval_FactionManager_RHS_USAFxAFRF.et" {
+ coords 5109.766 14.409 3998.825
+}
+$grp SCR_SpawnPoint : "{34D111B7A3470B7D}Prefabs/MP/Spawning/Podval_SpawnPoint_RHS_AFRF_MSV.et" {
+ SpawnPoint_USSR_5 {
+  coords 5069.406 14.936 4022.396
+  angles 0 67.521 0
+  m_iPriority 3
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "#AR-CAH-SpawnArea_USSR_A"
+  }
+  {
+   $grp SCR_Position {
+    USSR_1_5 {
+     components {
+      Hierarchy "{55FAD7263B086083}" {
+      }
+     }
+     coords -0.791 -0.039 -0.123
+     angles 0 -6.904 0
+    }
+    USSR_1_6 {
+     components {
+      Hierarchy "{55FAD7263B086083}" {
+      }
+     }
+     coords 0.363 -0.112 0.018
+     angles 0 -6.904 0
+    }
+    USSR_1_7 {
+     components {
+      Hierarchy "{55FAD7263B086083}" {
+      }
+     }
+     coords 1.445 -0.183 0.148
+     angles 0 -6.904 0
+    }
+    USSR_1_8 {
+     components {
+      Hierarchy "{55FAD7263B086083}" {
+      }
+     }
+     coords -2.044 0.045 -0.275
+     angles 0 -6.904 0
+    }
+   }
+  }
+ }
+ SpawnPoint_USSR_6 {
+  coords 5068.331 14.678 4003.958
+  angles 0 109.829 0
+  m_iPriority 2
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "#AR-CAH-SpawnArea_USSR_B"
+  }
+  {
+   $grp SCR_Position {
+    USSR_2_4 {
+     components {
+      Hierarchy "{55FAD7263B086083}" {
+      }
+     }
+     coords -0.244 0.026 -0.973
+     angles 0 0.754 0
+    }
+    USSR_2_5 {
+     components {
+      Hierarchy "{55FAD7263B086083}" {
+      }
+     }
+     coords -1.335 0.006 -1.102
+     angles 0 -2.553 0
+    }
+    USSR_2_6 {
+     components {
+      Hierarchy "{55FAD7263B086083}" {
+      }
+     }
+     coords 0.911 0.006 -1
+     angles 0 -2.553 0
+    }
+   }
+  }
+ }
+ SpawnPoint_USSR_7 {
+  coords 5069.604 14.654 3991.845
+  m_iPriority 1
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "#AR-CAH-SpawnArea_USSR_C"
+  }
+  {
+   $grp SCR_Position {
+    USSR_3_4 {
+     components {
+      Hierarchy "{55FAD7263B086083}" {
+      }
+     }
+     coords 0.447 0.031 -1.847
+     angles 0 -1.206 0
+    }
+    USSR_3_5 {
+     components {
+      Hierarchy "{55FAD7263B086083}" {
+      }
+     }
+     coords -0.567 0.031 -0.303
+     angles 0 -1.206 0
+    }
+    USSR_3_6 {
+     components {
+      Hierarchy "{55FAD7263B086083}" {
+      }
+     }
+     coords -0.533 0.031 -1.915
+     angles 0 -1.206 0
+    }
+   }
+  }
+ }
+ SpawnPoint_USSR_8 {
+  coords 5007.875 15.869 4011.946
+  angles 0 90.137 0
+  m_iPriority 4
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "#AR-CAH-SpawnArea_USSR_D"
+  }
+  {
+   $grp SCR_Position {
+    USSR_4_5 {
+     components {
+      Hierarchy "{55FAD7263B086083}" {
+      }
+     }
+     coords -0.202 0.023 -1.077
+     angles 0 0.617 0
+    }
+    USSR_4_6 {
+     components {
+      Hierarchy "{55FAD7263B086083}" {
+      }
+     }
+     coords -1.516 0.023 -1.063
+     angles 0 0.617 0
+    }
+    USSR_4_7 {
+     components {
+      Hierarchy "{55FAD7263B086083}" {
+      }
+     }
+     coords 1.322 0.023 -1.094
+     angles 0 0.617 0
+    }
+    USSR_4_8 {
+     components {
+      Hierarchy "{55FAD7263B086083}" {
+      }
+     }
+     coords 2.539 -0.315 -1.107
+     angles 0 0.617 0
+    }
+   }
+  }
+ }
+}
+$grp SCR_CaptureAndHoldSpawnArea : "{790E7A53B763900D}Prefabs/MP/Modes/CaptureAndHold/SpawnAreas/Podval_CaptureAndHoldSpawnArea_RHS_USAF.et" {
+ {
+  coords 5179.196 24.119 4044.203
+  angles 0 165 0
+  BoxMins -100 -10 -50
+  BoxMaxs 12 10 45
+ }
+ {
+  coords 5198.604 16.111 3983.506
+  angles 0 165 0
+  BoxMins -50 -10 -50
+  BoxMaxs 12 10 0
+ }
+ {
+  coords 5217.095 12.099 3914.498
+  angles 0 165 0
+  BoxMins -50 -10 -50
+  BoxMaxs 12 10 0
+ }
+}
+SCR_LoadoutManager LoadoutManager2 : "{A724D9B5940984BF}Prefabs/MP/Managers/Loadouts/Podval_LoadoutManager_RHS_USAFxAFRF.et" {
+ coords 7568.646 166.722 4200.58
+}
+$grp SCR_SpawnPoint : "{AE18B61A63B45D49}Prefabs/MP/Spawning/Podval_SpawnPoint_RHS_USAF_USMC.et" {
+ {
+  coords 5180.943 14.423 4055.159
+  angles 0 165.603 0
+  m_iPriority 3
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "#AR-CAH-SpawnArea_US_B"
+  }
+  {
+   $grp SCR_Position {
+    US_1_14 {
+     components {
+      Hierarchy "{55FAD7263B086083}" {
+      }
+     }
+     coords -0.454 -0.008 0.412
+     angles 0 -1.206 0
+    }
+    US_1_15 {
+     components {
+      Hierarchy "{55FAD7263B086083}" {
+      }
+     }
+     coords 0.966 -0.008 0.445
+     angles 0 -1.809 0
+    }
+    US_1_16 {
+     components {
+      Hierarchy "{55FAD7263B086083}" {
+      }
+     }
+     coords -1.872 -0.008 0.355
+     angles 0 -1.809 0
+    }
+   }
+  }
+ }
+ {
+  coords 5197.343 15.198 4037.556
+  angles 0 -106.019 0
+  m_iPriority 2
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "#AR-CAH-SpawnArea_US_C"
+  }
+  {
+   $grp SCR_Position {
+    US_1_17 {
+     components {
+      Hierarchy "{55FAD7263B086083}" {
+      }
+     }
+     coords -1.184 0.177 -0.071
+     angles 0 1.019 0
+    }
+    US_1_18 {
+     components {
+      Hierarchy "{55FAD7263B086083}" {
+      }
+     }
+     coords -0.303 0.177 -0.087
+     angles 0 0.416 0
+    }
+    US_1_19 {
+     components {
+      Hierarchy "{55FAD7263B086083}" {
+      }
+     }
+     coords 0.803 0.177 -0.094
+     angles 0 0.416 0
+    }
+   }
+  }
+ }
+ {
+  coords 5238.306 19.242 4050.262
+  angles 0 -98.997 0
+  m_iPriority 4
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "#AR-CAH-SpawnArea_US_D"
+  }
+  {
+   $grp SCR_Position {
+    US_1_20 {
+     components {
+      Hierarchy "{55FAD7263B086083}" {
+      }
+     }
+     coords 1.365 -0.029 1.089
+     angles 0 -22.209 0
+    }
+    US_1_21 {
+     components {
+      Hierarchy "{55FAD7263B086083}" {
+      }
+     }
+     coords -0.947 -0.029 1.146
+     angles 0 1.788 0
+    }
+    US_1_22 {
+     components {
+      Hierarchy "{55FAD7263B086083}" {
+      }
+     }
+     coords 0.184 -0.06 0.812
+     angles 0 -4.215 0
+    }
+   }
+  }
+ }
+ {
+  coords 5212.296 14.092 3979.169
+  angles 0 -55.061 0
+  m_iPriority 1
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "#AR-CAH-SpawnArea_US_E"
+  }
+  {
+   $grp SCR_Position {
+    US_1_23 {
+     components {
+      Hierarchy "{55FAD7263B086083}" {
+      }
+     }
+     coords -1.185 0.177 -0.071
+     angles 0 1.019 0
+    }
+    US_1_24 {
+     components {
+      Hierarchy "{55FAD7263B086083}" {
+      }
+     }
+     coords -0.304 0.177 -0.087
+     angles 0 0.416 0
+    }
+    US_1_25 {
+     components {
+      Hierarchy "{55FAD7263B086083}" {
+      }
+     }
+     coords 0.803 0.177 -0.094
+     angles 0 0.416 0
+    }
+    US_1_26 {
+     components {
+      Hierarchy "{55FAD7263B086083}" {
+      }
+     }
+     coords -2.024 0.177 -0.057
+     angles 0 11.08 0
+    }
+   }
+  }
+ }
+}
+SCR_CaptureAndHoldSpawnArea : "{DED346D089ABC856}Prefabs/MP/Modes/CaptureAndHold/SpawnAreas/Podval_CaptureAndHoldSpawnArea_RHS_AFRF.et" {
+ coords 5075.694 24.639 4005.993
+ angles 0 -7.651 0
+ BoxMins -100 -10 -35
+ BoxMaxs 15 10 70
+}

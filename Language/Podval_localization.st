@@ -92,6 +92,15 @@ StringTable {
    Author "Vlad333000"
    LastChanged "Vlad333000"
   }
+  CustomStringTableItem "{68E8CA325923BF28}" {
+   Id "AR-PODVAL-CAH-Scenario_Description_Morton_RHS"
+   Target_en_us "A small detachment of Russian forces from Kolgujev has established a beachhead at Morton. It may be a feint or the thin end of a wedge, but NATO troops are responding to the threat in force."
+   Target_ru_ru "Небольшое подразделение российских войск из Колгуева создало плацдарм в Мортоне. Возможно, это обманный маневр или проба сил, но войска НАТО отвечают на угрозу силой."
+   Status TRANSLATION_PENDING
+   Modified 1760087641
+   Author "Vlad333000"
+   LastChanged "Vlad333000"
+  }
   CustomStringTableItem "{68E0A2A8E436F154}" {
    Id "AR-PODVAL-CAH-Scenario_Name_Beauregard_RHS"
    Target_en_us "Capture & Hold - Beauregard RHS"
@@ -233,6 +242,24 @@ StringTable {
    Target_ru_ru "Capture & Hold — Лагерь Блейк RHS Пехотный"
    Status TRANSLATION_PENDING
    Modified 1760086469
+   Author "Vlad333000"
+   LastChanged "Vlad333000"
+  }
+  CustomStringTableItem "{68E8CA325123F434}" {
+   Id "AR-PODVAL-CAH-Scenario_Name_Morton_RHS"
+   Target_en_us "Capture & Hold - Morton RHS"
+   Target_ru_ru "Capture & Hold — Мортон RHS"
+   Status TRANSLATION_PENDING
+   Modified 1760087641
+   Author "Vlad333000"
+   LastChanged "Vlad333000"
+  }
+  CustomStringTableItem "{68E8CA32537E268A}" {
+   Id "AR-PODVAL-CAH-Scenario_Name_Morton_RHS_Inf"
+   Target_en_us "Capture & Hold - Morton RHS Infantry"
+   Target_ru_ru "Capture & Hold — Мортон RHS Пехотный"
+   Status TRANSLATION_PENDING
+   Modified 1760087641
    Author "Vlad333000"
    LastChanged "Vlad333000"
   }
