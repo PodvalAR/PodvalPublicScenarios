@@ -1,0 +1,233 @@
+SCR_FactionManager FactionManager2 : "{00F0A1DE34342052}Prefabs/MP/Managers/Factions/Podval_FactionManager_RHS_USAFxAFRF.et" {
+ coords 0 0 0
+}
+$grp SCR_SpawnPoint : "{34D111B7A3470B7D}Prefabs/MP/Spawning/Podval_SpawnPoint_RHS_AFRF_MSV.et" {
+ Spawn_USSR_Alpha2 {
+  coords 6330.665 101.898 5212.423
+  angles 0 -118.131 0
+  m_iPriority 1
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "#AR-CAH-SpawnArea_USSR_A"
+  }
+  {
+   $grp SCR_Position {
+    USSR_1_6 {
+     components {
+      Hierarchy "{55FAD7263B086083}" {
+      }
+     }
+     coords -2 -0.457 0.001
+    }
+    USSR_1_7 {
+     components {
+      Hierarchy "{55FAD7263B086083}" {
+      }
+     }
+     coords 4.001 -0.085 0.001
+    }
+    USSR_1_8 {
+     components {
+      Hierarchy "{55FAD7263B086083}" {
+      }
+     }
+     coords 2 -0.19 0
+    }
+    USSR_1_9 {
+     components {
+      Hierarchy "{55FAD7263B086083}" {
+      }
+     }
+     coords 0 -0.363 0
+    }
+    USSR_1_10 {
+     components {
+      Hierarchy "{55FAD7263B086083}" {
+      }
+     }
+     coords -3.999 -0.63 0
+    }
+   }
+  }
+ }
+ Spawn_USSR_Bravo2 {
+  coords 6163.793 128.005 5270.339
+  angles 0 -173.837 0
+  m_iPriority 2
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "#AR-CAH-SpawnArea_USSR_B"
+  }
+  {
+   $grp SCR_Position {
+    USSR_2_6 {
+     components {
+      Hierarchy "{55FAD7263B086083}" {
+      }
+     }
+     coords -2 -0.594 0.002
+    }
+    USSR_2_7 {
+     components {
+      Hierarchy "{55FAD7263B086083}" {
+      }
+     }
+     coords 4.001 -0.439 0.001
+    }
+    USSR_2_8 {
+     components {
+      Hierarchy "{55FAD7263B086083}" {
+      }
+     }
+     coords 2 -0.516 -0.001
+    }
+    USSR_2_9 {
+     components {
+      Hierarchy "{55FAD7263B086083}" {
+      }
+     }
+     coords 0 -0.562 0
+    }
+    USSR_2_10 {
+     components {
+      Hierarchy "{55FAD7263B086083}" {
+      }
+     }
+     coords -4.001 -0.582 0.002
+    }
+   }
+  }
+ }
+}
+$grp SCR_CaptureAndHoldSpawnArea : "{790E7A53B763900D}Prefabs/MP/Modes/CaptureAndHold/SpawnAreas/Podval_CaptureAndHoldSpawnArea_RHS_USAF.et" {
+ SpawnArea_US_Alpha2 {
+  coords 6046.573 119.195 4984.184
+  angles 0 75.095 0
+  TriggerShapeType Sphere
+  SphereRadius 75
+  BoxMins -110 -10 -35
+  BoxMaxs 50 25 35
+ }
+ SpawnArea_US_Bravo2 {
+  coords 5887.183 103.066 5054.555
+  angles 0 82.572 0
+  TriggerShapeType Sphere
+  SphereRadius 100
+  BoxMins -110 -10 -35
+  BoxMaxs 50 25 35
+ }
+}
+SCR_LoadoutManager LoadoutManager2 : "{A724D9B5940984BF}Prefabs/MP/Managers/Loadouts/Podval_LoadoutManager_RHS_USAFxAFRF.et" {
+ coords 7568.646 166.722 4200.58
+}
+$grp SCR_SpawnPoint : "{AE18B61A63B45D49}Prefabs/MP/Spawning/Podval_SpawnPoint_RHS_USAF_USMC.et" {
+ Spawn_US_Alpha2 {
+  coords 6046.321 119.356 4985.045
+  angles 0 58.839 0
+  m_iPriority 2
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "#AR-CAH-SpawnArea_US_A"
+  }
+  {
+   $grp SCR_Position {
+    US_1_6 {
+     components {
+      Hierarchy "{55FAD7263B086083}" {
+      }
+     }
+     coords -2 -0.548 -0
+    }
+    US_1_7 {
+     components {
+      Hierarchy "{55FAD7263B086083}" {
+      }
+     }
+     coords 0 -0.775 0
+    }
+    US_1_8 {
+     components {
+      Hierarchy "{55FAD7263B086083}" {
+      }
+     }
+     coords 1.999 -1.021 -0.001
+    }
+    US_1_9 {
+     components {
+      Hierarchy "{55FAD7263B086083}" {
+      }
+     }
+     coords 3.998 -1.29 -0.002
+    }
+    US_1_10 {
+     components {
+      Hierarchy "{55FAD7263B086083}" {
+      }
+     }
+     coords -4.001 -0.324 -0.001
+    }
+   }
+  }
+ }
+ Spawn_US_Bravo2 {
+  coords 5887.042 103.021 5054.727
+  angles 0 93.048 0
+  m_iPriority 1
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "#AR-CAH-SpawnArea_US_B"
+  }
+  {
+   $grp SCR_Position {
+    US_2_6 {
+     components {
+      Hierarchy "{55FAD7263B086083}" {
+      }
+     }
+     coords -2 0.015 -0
+    }
+    US_2_7 {
+     components {
+      Hierarchy "{55FAD7263B086083}" {
+      }
+     }
+     coords 0 -0.058 0
+    }
+    US_2_8 {
+     components {
+      Hierarchy "{55FAD7263B086083}" {
+      }
+     }
+     coords 2 -0.119 -0.001
+    }
+    US_2_9 {
+     components {
+      Hierarchy "{55FAD7263B086083}" {
+      }
+     }
+     coords 3.999 -0.191 -0.002
+    }
+    US_2_10 {
+     components {
+      Hierarchy "{55FAD7263B086083}" {
+      }
+     }
+     coords -3.999 0.083 0.001
+    }
+   }
+  }
+ }
+}
+$grp SCR_CaptureAndHoldSpawnArea : "{DED346D089ABC856}Prefabs/MP/Modes/CaptureAndHold/SpawnAreas/Podval_CaptureAndHoldSpawnArea_RHS_AFRF.et" {
+ SpawnArea_USSR_Bravo2 {
+  coords 6162.921 128.09 5269.651
+  TriggerShapeType Sphere
+  SphereRadius 100
+  BoxMins -20 -10 -15
+  BoxMaxs 20 10 20
+ }
+ SpawnArea_USSR_Alpha2 {
+  coords 6329.118 102.105 5212.295
+  angles 0 -136.147 0
+  TriggerShapeType Sphere
+  SphereRadius 75
+  BoxMins -20 -10 -15
+  BoxMaxs 20 10 20
+ }
+}
