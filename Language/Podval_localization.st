@@ -65,6 +65,15 @@ StringTable {
    Author "Vlad333000"
    LastChanged "Vlad333000"
   }
+  CustomStringTableItem "{68E8A5C556790B18}" {
+   Id "AR-PODVAL-CAH-Scenario_Description_Forest_RHS"
+   Target_en_us "he farm at Simon's Wood sits near the junction of key roads connecting Everon's North, South, and West. A breakthrough here may open up half the island..."
+   Target_ru_ru "Ферма в лесу Симона находится вблизи перекрестка ключевых дорог, соединяющих север, юг и запад Эверона. Прорыв здесь может открыть выход на оперативные просторы доброй половины острова..."
+   Status TRANSLATION_PENDING
+   Modified 1760083652
+   Author "Vlad333000"
+   LastChanged "Vlad333000"
+  }
   CustomStringTableItem "{68E0A2A8E436F154}" {
    Id "AR-PODVAL-CAH-Scenario_Name_Beauregard_RHS"
    Target_en_us "Capture & Hold - Beauregard RHS"
@@ -152,6 +161,24 @@ StringTable {
    Target_ru_ru "Capture & Hold — Завод Almara RHS Infantry"
    Status TRANSLATION_PENDING
    Modified 1760082611
+   Author "Vlad333000"
+   LastChanged "Vlad333000"
+  }
+  CustomStringTableItem "{68E8A5C55D0F4E99}" {
+   Id "AR-PODVAL-CAH-Scenario_Name_Forest_RHS"
+   Target_en_us "Capture & Hold - Simon's Wood RHS"
+   Target_ru_ru "Capture & Hold — Лес Саймона RHS"
+   Status TRANSLATION_PENDING
+   Modified 1760083652
+   Author "Vlad333000"
+   LastChanged "Vlad333000"
+  }
+  CustomStringTableItem "{68E8A5C55F7D0FFE}" {
+   Id "AR-PODVAL-CAH-Scenario_Name_Forest_RHS_Inf"
+   Target_en_us "Capture & Hold - Simon's Wood RHS Infantry"
+   Target_ru_ru "Capture & Hold — Лес Саймона RHS Пехотный"
+   Status TRANSLATION_PENDING
+   Modified 1760083652
    Author "Vlad333000"
    LastChanged "Vlad333000"
   }
